@@ -1,0 +1,47 @@
+.transID_blk .transIDleft {
+  font-size: 14px;
+}
+@media (min-width: 768px) {
+  .transID_blk .transIDleft {
+    width: 75%;
+  }
+}
+.transID_blk .transIDleft b {
+  font-size: 16px;
+  font-weight: 600;
+  color: #000;
+}
+.tansDetailsCard.ant-card {
+  box-shadow: 0px 3px 10px #0000000f;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  overflow: hidden;
+}
+@media (min-width: 991px) {
+  .tansDetailsCard.ant-card {
+    min-height: 60vh;
+  }
+}
+@media (min-width: 991px) {
+  .tansDetailsCard.ant-card .ant-card-body {
+    padding-top: 0;
+  }
+}
+.tansDetailsCard.ant-card .ant-card-body .tansDetailsHeader_list {
+  background-color: #333333;
+  margin-right: -20px;
+  margin-left: -20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: #fff;
+}
+.tansDetailsCard.ant-card .tansDetailsCard_list:not(:last-child) {
+  margin-bottom: 10px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #f5f5f5;
+}
+@media (max-width: 575px) {
+  .tansDetailsCard.ant-card .tansDetailsCard_list .userInCard .uicTop {
+    max-width: 130px;
+  }
+}

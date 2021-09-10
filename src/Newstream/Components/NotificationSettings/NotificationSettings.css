@@ -1,0 +1,177 @@
+.notificationbox {
+  border-radius: 10px;
+  box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.06);
+}
+@media (max-width: 767px) {
+  .notificationbox .ant-card-body {
+    padding: 15px;
+  }
+}
+.notificationbox .ant-card-body .ant-collapse {
+  border: 0;
+  background: transparent;
+}
+.notificationbox .ant-card-body .ant-collapse .ant-collapse-item {
+  box-shadow: 0px 0px 3px #2b2b2b33;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  border: 0;
+}
+.notificationbox .ant-card-body .ant-collapse .ant-collapse-item .ant-collapse-header {
+  background-color: #f5f5f5;
+  padding: 10px 50px 10px 20px;
+  border-radius: 10px 10px 0 0;
+  font-size: 1.14rem;
+  font-weight: 700;
+}
+@media (max-width: 767px) {
+  .notificationbox .ant-card-body .ant-collapse .ant-collapse-item .ant-collapse-header {
+    padding: 10px 25px 10px 10px;
+    font-size: 14px;
+  }
+}
+@media (max-width: 575px) {
+  .notificationbox .ant-card-body .ant-collapse .ant-collapse-item .ant-collapse-header {
+    padding: 10px 15px 10px 10px;
+    font-size: 13px;
+  }
+}
+.notificationbox .ant-card-body .ant-collapse .ant-collapse-item .ant-collapse-header .ant-collapse-arrow {
+  color: #a7a7a7;
+  right: 20px;
+  padding-top: 6px;
+}
+@media (max-width: 575px) {
+  .notificationbox .ant-card-body .ant-collapse .ant-collapse-item .ant-collapse-header .ant-collapse-arrow {
+    right: 5px;
+  }
+}
+.notificationbox .ant-card-body .ant-collapse .ant-collapse-item .ant-collapse-header .ant-collapse-extra {
+  width: 31%;
+}
+@media (max-width: 1199px) {
+  .notificationbox .ant-card-body .ant-collapse .ant-collapse-item .ant-collapse-header .ant-collapse-extra {
+    width: 36%;
+  }
+}
+@media (max-width: 767px) {
+  .notificationbox .ant-card-body .ant-collapse .ant-collapse-item .ant-collapse-header .ant-collapse-extra {
+    display: flex;
+    flex-wrap: wrap;
+    width: 50%;
+  }
+}
+.notificationbox .ant-card-body .ant-collapse .ant-collapse-item .ant-collapse-header .ant-collapse-extra .notifylabel {
+  color: #a7a7a7;
+  display: inline-block;
+  text-align: center;
+  width: 50%;
+  font-size: 1rem;
+  font-weight: 400;
+}
+@media (max-width: 767px) {
+  .notificationbox .ant-card-body .ant-collapse .ant-collapse-item .ant-collapse-header .ant-collapse-extra .notifylabel {
+    font-size: 12px;
+  }
+}
+@media (max-width: 575px) {
+  .notificationbox .ant-card-body .ant-collapse .ant-collapse-item .ant-collapse-header .ant-collapse-extra .notifylabel {
+    width: auto;
+    -ms-flex: 0 0 50%;
+    flex: 0 0 50%;
+    max-width: 50%;
+    font-size: 12px;
+  }
+}
+.notificationbox .ant-card-body .ant-collapse .ant-collapse-item .ant-collapse-header .ant-collapse-extra .notifylabel .anticon {
+  margin-right: 10px;
+}
+@media (max-width: 575px) {
+  .notificationbox .ant-card-body .ant-collapse .ant-collapse-item .ant-collapse-header .ant-collapse-extra .notifylabel .anticon {
+    margin-right: 5px;
+  }
+}
+.notificationbox .ant-card-body .ant-collapse .ant-collapse-item .ant-collapse-header .ant-collapse-extra .notifylabel .anticon svg {
+  margin-top: -3px;
+}
+.notificationbox .ant-card-body .ant-collapse .ant-collapse-content {
+  border-top: 0;
+  border-radius: 0 0 10px 10px;
+}
+.notificationbox .ant-card-body .ant-collapse .ant-collapse-content .ant-collapse-content-box {
+  padding: 15px 20px;
+}
+@media (max-width: 767px) {
+  .notificationbox .ant-card-body .ant-collapse .ant-collapse-content .ant-collapse-content-box {
+    padding: 10px;
+  }
+}
+.notificationbox .ant-card-body .ant-collapse .ant-collapse-content .ant-collapse-content-box .notifylist {
+  padding: 10px 0;
+  color: #a1a1aa;
+}
+.notificationbox .ant-card-body .ant-collapse .ant-collapse-content .ant-collapse-content-box .notifylist label {
+  font-size: 1rem;
+  margin-bottom: 0;
+}
+@media (max-width: 767px) {
+  .notificationbox .ant-card-body .ant-collapse .ant-collapse-content .ant-collapse-content-box .notifylist {
+    font-size: 12px;
+  }
+}
+.notificationbox .ant-card-body .ant-collapse .ant-collapse-content .ant-collapse-content-box .notifylist .notifycheckbox {
+  text-align: center;
+}
+.notificationbox .ant-card-body .ant-collapse .ant-collapse-content .ant-collapse-content-box .notifylist .notifycheckbox .ant-checkbox-inner {
+  border-radius: 0;
+}
+.notificationAction {
+  border-radius: 0;
+}
+.notificationAction:not(:last-child) {
+  border-bottom: 0;
+}
+.notificationAction .ant-card-body {
+  padding: 14px 20px;
+}
+@media (max-width: 767px) {
+  .notificationAction .ant-card-body {
+    padding: 10px;
+  }
+}
+.notificationAction .notificationActionTxt strong {
+  font-size: 16px;
+  color: #000;
+}
+.notificationAction .notificationActionTxt span {
+  font-size: 13px;
+  color: #7f7f7f;
+}
+.notificationAction .notificationActionSwitch .ant-switch {
+  background-color: #333333;
+}
+.notificationAction .notificationActionSwitch .ant-switch.ant-switch-checked {
+  background-color: #1ab42f;
+}
+.notificationAction .notificationActionSwitch .ant-switch {
+  min-width: 70px;
+  height: 26px;
+}
+.notificationAction .notificationActionSwitch .ant-switch-loading-icon,
+.notificationAction .notificationActionSwitch .ant-switch::after {
+  top: 0px;
+  left: 0px;
+  width: 24px;
+  height: 24px;
+}
+.notificationAction .notificationActionSwitch .ant-switch-checked::after {
+  left: 100%;
+  margin-left: 0px;
+  -webkit-transform: translateX(-100%);
+  transform: translateX(-100%);
+}
+@media (max-width: 767px) {
+  .myNotificationSettings_blk .ant-card-body {
+    padding: 10px;
+  }
+}

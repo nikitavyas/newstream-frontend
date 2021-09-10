@@ -1,0 +1,35 @@
+.nodatapage {
+  padding: 40px 0;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.nodatapage .nodatacontent {
+  text-align: center;
+}
+.nodatapage .nodatacontent h3 {
+  font-size: 21px;
+  font-weight: 600;
+  margin: 20px 0;
+  line-height: 25px;
+}
+.nodatapage .nodatacontent p {
+  font-size: 16px;
+  line-height: 24px;
+  max-width: 400px;
+  margin: 0 auto 60px;
+}
+.nodatapage .nodatacontent .ant-btn {
+  color: #7721D1;
+  background-color: #fff;
+  height: 40px;
+  min-width: 200px;
+  border: 1px solid #7721D1;
+  border-radius: 4px;
+  font-weight: 600;
+}
+.nodatapage .nodatacontent .ant-btn:hover {
+  background-color: #7721D1;
+  color: #fff;
+}

@@ -1,0 +1,64 @@
+.requestsMapsPopup {
+	.viewCounter {
+		.custIcon {
+			color: #7721d1;
+		}
+	}
+}
+
+.requestsMapsPopup {
+	top: -105px;
+	.mapboxgl-popup-content {
+		width: 410px;
+		border-radius: 10px;
+		overflow: hidden;
+		box-shadow: 3px 3px 10px #0000002e;
+		@media (max-width: 575px) {
+			width: 290px;
+		}
+		.ant-card-body {
+			padding: 15px;
+			.rbTitle {
+				h3 {
+					color: #000000;
+					font-size: 14px;
+					font-weight: 500;
+					word-break: break-word;
+				}
+			}
+			.viewCounter {
+				.custIcon {
+					font-size: 20px;
+				}
+			}
+			.requestaway {
+				font-size: 13px;
+			}
+			small {
+				font-size: 13px;
+				@media (max-width: 575px) {
+					&.expiryDateTime {
+						max-width: 195px;
+						overflow: hidden;
+						text-overflow: ellipsis;
+					}
+				}
+			}
+			.action-btn {
+				padding-right: 22px;
+				margin-right: -23px;
+				border-radius: 32px 0 0 32px;
+			}
+			.userInCard {
+				.uicTop {
+					max-width: 95px;
+				}
+			}
+		}
+	}
+}
+.mapview_blk.mapboxgl-map {
+	box-shadow: 0px 3px 10px #00000017;
+	border: 10px solid #ffffff;
+	border-radius: 10px;
+}

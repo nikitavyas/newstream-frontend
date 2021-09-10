@@ -1,0 +1,42 @@
+.ant-upload-list-picture .ant-upload-list-item {
+  box-shadow: 0px 0px 6px #2b2b2b1a;
+  border-radius: 10px;
+  border: 0;
+  padding: 15px 15px;
+}
+.ant-upload-list-picture .ant-upload-list-item-name {
+  padding: 0 65px 0 55px;
+  line-height: 24px;
+}
+.ant-upload-list-picture .ant-upload-list-item-thumbnail {
+  left: 15px;
+}
+.ant-upload-list-picture .ant-upload-list-item-card-actions {
+  top: 15px;
+  right: 12px;
+}
+.ant-upload-list-picture .ant-upload-list-item-card-actions .ant-upload-list-item-card-actions-btn {
+  background: url(../../Assets/images/ic_close_with_circle.png) no-repeat;
+  background-size: 36px;
+  width: 36px;
+  height: 36px;
+}
+.ant-upload-list-picture .ant-upload-list-item-card-actions .ant-upload-list-item-card-actions-btn .anticon {
+  display: none;
+}
+.ant-upload-list-picture .ant-progress-text {
+  position: absolute;
+  right: 50px;
+  font-size: 1rem;
+  font-weight: 700;
+  top: -10px;
+}
+@media (max-width: 767px) {
+  .ant-upload-list-picture .ant-progress-text {
+    top: -16px;
+    right: 45px;
+  }
+}
+.ant-upload-list-picture .ant-progress-show-info .ant-progress-outer {
+  padding-right: calc(3.6em + 8px);
+}

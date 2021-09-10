@@ -1,0 +1,83 @@
+@import url('../../Assets/Less/Variable.less');
+
+
+.ant-table table thead > tr > th {
+	white-space: nowrap;
+}
+.ant-tabs-bar .ant-tabs-extra-content {
+	line-height: 1;
+}
+.ant-select-selection-item .profile_img_intial {
+	display: none !important;
+}
+.ant-tree-select-dropdown
+	.ant-select-tree-list-holder-inner
+	.ant-select-tree-treenode {
+	align-items: center;
+}
+.ant-table tbody > tr.ant-table-row:hover > td {
+	background: #fafafa;
+}
+.selectboxOption .selectBoxName {
+	width: calc(100% - 32px);
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	overflow: hidden;
+}
+.userReporter {
+	.userReporterName {
+		font-size: 1rem;
+		white-space: nowrap;
+		max-width: 200px;
+		overflow: hidden;
+		text-overflow: ellipsis;
+		display: block;
+	}
+}
+.filterbySelect {
+	.selectboxOption {
+		.ant-avatar {
+			display: none;
+		}
+		.selectBoxName {
+			width: 100%;
+		}
+	}
+}
+
+.transationTable .userReporter {
+	display: none;
+}
+.viewByDrop {
+	box-shadow: 0px 0px 6px #2b2b2b1a;
+	border-radius: 18px;
+	background-color: #fff;
+	padding: 2px 15px;
+	label {
+		color: #a1a1aa;
+		font-size: 0.92rem;
+		margin: 0;
+	}
+	.ant-select {
+		width: 100px;
+		.ant-select-selector {
+			height: 28px;
+			border: 0;
+			box-shadow: none !important;
+			.ant-select-selection-search-input {
+				height: 28px;
+			}
+			.ant-select-selection-item {
+				line-height: 28px;
+			}
+		}
+	}
+}
+@media (max-width: 575px) {
+	.ant-btn.download_btn {
+		padding: 4px 10px;
+		span:not(.anticon) {
+			display: none;
+		}
+	}
+}

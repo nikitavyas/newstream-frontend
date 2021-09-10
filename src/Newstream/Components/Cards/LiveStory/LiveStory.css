@@ -1,0 +1,65 @@
+.liveStory_blk {
+  border: 1px solid #cfcfcf;
+  border-radius: 10px;
+}
+.liveStory_blk .liveStory_top {
+  font-size: 12px;
+}
+.liveStory_blk .liveStory_top .liveStoryAvatar .name {
+  color: #000;
+  font-weight: 600;
+  max-width: 120px;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+.liveStory_blk .liveStory_top .liveStoryAvatar .location {
+  color: #8a8a8a;
+  font-weight: 500;
+  max-width: 120px;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+.liveStory_blk .liveStory_title {
+  color: #000;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+.liveStory_blk .liveStory_img {
+  position: relative;
+  height: 217px;
+  overflow: hidden;
+  border-radius: 10px;
+  margin-bottom: 10px;
+  background: #f2f2f2;
+}
+@media (max-width: 1199px) {
+  .liveStory_blk .liveStory_img {
+    height: 140px;
+  }
+}
+@media (max-width: 767px) {
+  .liveStory_blk .liveStory_img {
+    height: 200px;
+  }
+}
+.liveStory_blk .liveStory_img .lbl-purchased {
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  width: 130px;
+}
+.liveStory_blk .price {
+  color: #7721d1;
+}
+.liveStory_blk .scheduled {
+  color: #000000;
+  font-weight: 600;
+  line-height: 1;
+  white-space: nowrap;
+}
+.liveStory_blk .scheduled .anticon {
+  color: #ff0000;
+}

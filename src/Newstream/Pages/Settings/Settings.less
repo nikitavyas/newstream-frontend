@@ -1,0 +1,139 @@
+@import url('../../Assets/Less/Variable.less');
+.profiletab {
+	.ant-menu-horizontal {
+		border: 0;
+		.ant-menu-item {
+			color: #2b2b2b66;
+			font-size: 1rem;
+			font-weight: 600;
+			text-transform: capitalize;
+			border: 0 !important;
+			padding: 0 15px;
+			margin: 0;
+			min-width: 186px;
+			@media (max-width:1200px){
+				min-width: inherit;
+			}
+			text-align: center;
+			&.ant-menu-item-selected {
+				color: #2b2b2b;
+				box-shadow: 0px -2px 6px -1px #2b2b2b26;
+				z-index: 1;
+				background: #fff;
+				border-radius: 10px 10px 0px 0px;
+			}
+			&.ant-menu-item-active {
+				color: #2b2b2b;
+			}
+		}
+	}
+}
+.myTerms_blk {
+	border: 1px solid #2b2b2b1a;
+	border-radius: 10px;
+	padding: 30px;
+	@media (max-width: 1200px){
+		padding: 1.33rem;
+	}
+	p {
+		font-size: 1rem;
+		color: #2b2b2b99;
+	}
+	.profileScroll{max-height: 64vh;overflow-y: auto;}
+}
+// .myProfile_blk {
+// 	.myProfileDet {
+// 		margin-bottom: 10px;
+// 		.ant-typography {
+// 			margin-bottom: 0;
+// 			h4 {
+// 				font-weight: 700;
+// 			}
+// 		}
+// 	}
+// 	.myProfileForm {
+// 		.ant-form-item {
+// 			margin-bottom: 15px;
+// 		}
+// 	}
+
+// 	.requestStatus {
+// 		margin-bottom: 30px;
+// 		@media (max-width: 575px) {
+// 			margin-bottom: 10px;
+// 		}
+// 		.ant-card {
+// 			margin-right: 15px;
+// 			border: 1px solid #000;
+// 			@media (max-width: 575px) {
+// 				margin-right: 0px;
+// 			}
+// 			&.requestStatus_blk {
+// 				width: 100%;
+// 				@media (min-width: 575px) {
+// 					width: 190px;
+// 					height: 60px;
+// 				}
+// 			}
+// 			&.completed {
+// 				border-color: #3bb12f;
+// 				color: #3bb12f;
+// 			}
+// 			&.ongoing {
+// 				border-color: #ff6600;
+// 				color: #ff6600;
+// 			}
+// 			.ant-card-body {
+// 				padding: 15px;
+// 				width: 100%;
+// 				.requestStatusTxt {
+// 					width: 100%;
+// 					display: flex;
+// 					flex-direction: row;
+// 					align-items: center;
+// 					justify-content: space-between;
+// 					h1 {
+// 						margin-bottom: 0;
+// 						font-weight: 400;
+// 						font-size: 30px;
+// 						display: flex;
+// 						color: inherit;
+// 					}
+// 					span {
+// 						font-size: 15px;
+// 						display: flex;
+// 						padding-left: 10px;
+// 					}
+// 				}
+// 			}
+// 		}
+// 	}
+// 	.myProfileDetails {
+// 		color: #4f4f4f;
+// 		strong {
+// 			color: #000000;
+// 		}
+// 		.phoneNumber {
+// 			z-index: 1;
+// 			position: relative;
+// 		}
+// 	}
+// 	.profilePic {
+// 		width: 70px;
+// 		height: 70px;
+// 		overflow: hidden;
+// 		display: flex;
+// 		flex-direction: column;
+// 		align-items: center;
+// 		justify-content: center;
+// 		// border-radius: 50%;
+// 		margin: 0 auto;
+// 		background-color: #ddd;
+// 		border: 1px solid #ddd;
+// 		img {
+// 			height: 100%;
+// 			width: auto !important;
+// 			max-width: none;
+// 		}
+// 	}
+// }

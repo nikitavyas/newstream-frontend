@@ -1,0 +1,68 @@
+@import url('../../Assets/Less/Variable.less');
+
+.invitedthumbs {
+	.ant-avatar-image {
+		background: #fff;
+		margin-right: -5px;
+		box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+		vertical-align: top;
+	}
+}
+
+.requestBox_blk {
+	// height: 100%;
+	.ant-card-body {
+		padding: 15px 25px;
+		@media (max-width: 991px) {
+			padding: 15px;
+		}
+	}
+	.rbTitle {
+		h3 {
+			font-size: 18px;
+			font-weight: 500;
+			word-break: break-word;
+			letter-spacing: 0.45px;
+			color: #000000 !important;
+			opacity: 1;
+		}
+	}
+	.locTxt,
+	.dateTxt {
+		font-size: 15px;
+		letter-spacing: 0.75px;
+		color: #888888;
+		.gray-text-color {
+			word-break: break-word;
+			max-width: 90%;
+			@media (min-width: 991px) {
+				width: 450px;
+			}
+			@media (min-width: 1200px) {
+				width: 650px;
+			}
+		}
+	}
+	.viewCounter {
+		@media (max-width: 768px) {
+			margin-top: 10px;
+		}
+		span:not(.anticon) {
+			@media (max-width: 768px) {
+				margin-right: 0px;
+			}
+		}
+	}
+	.praposalTxt {
+		font-size: 15px;
+	}
+	.price-btn {
+		font-size: 16px;
+		line-height: 19px;
+		font-weight: 400;
+		color: #ffffff;
+		height: 34px;
+		margin-right: -26px;
+		padding-right: 25px;
+	}
+}

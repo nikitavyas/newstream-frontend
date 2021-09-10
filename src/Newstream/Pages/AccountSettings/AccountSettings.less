@@ -1,0 +1,26 @@
+@import url('../../Assets/Less/Variable.less');
+
+.accountSettingsAction {
+	border-radius: 0;
+	&:not(:last-child) {
+		border-bottom: 0;
+	}
+	.ant-card-body {
+		padding: 14px 20px;
+	}
+	.accountSettingsActionTxt {
+		strong {
+			font-size: 16px;
+			font-weight: 500;
+			color: #000;
+		}
+		span {
+			font-size: 13px;
+			color: #7f7f7f;
+		}
+	}
+	.accountSettingsActionIcon {
+		font-size: 30px;
+		color: @primary-color;
+	}
+}

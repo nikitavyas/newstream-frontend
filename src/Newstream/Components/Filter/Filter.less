@@ -1,0 +1,240 @@
+.filterSection {
+	padding: 0 0 0 20px;
+	@media (max-width: 1024px) {
+		padding: 0 20px 20px;
+		margin-top: 5px;
+	}
+	.filter-card {
+		padding-top: 15px;
+		@media (max-width: 1024px) {
+			border-top: 1px solid #2b2b2b33;
+		}
+		h6 {
+			font-weight: 700;
+			font-size: 14px;
+			text-transform: capitalize;
+			margin-bottom: 15px;
+			@media (max-width: 1024px) {
+				margin-bottom: 10px;
+			}
+		}
+	}
+	&.show {
+	}
+}
+.clear-button {
+	color: #2b2b2b;
+	font-size: 12px;
+	cursor: pointer;
+	&:hover {
+		color: #7721d1;
+	}
+}
+
+.selectedFilter {
+	.ant-tag {
+		background: #f4f4f5;
+		border: 0;
+		font-size: 0.71rem;
+		padding: 5px 10px;
+		color: #a1a1aa;
+		border-radius: 13px;
+		display: inline-flex;
+		align-items: center;
+		line-height: 12px;
+		margin-bottom: 10px;
+		max-width: 100%;
+		@media (max-width: 1024px) {
+			margin-bottom: 5px;
+		}
+		.anticon {
+			margin-right: 0;
+			font-size: 0.6rem;
+			min-width: 10px;
+		}
+		span {
+			overflow: hidden;
+			white-space: nowrap;
+			text-overflow: ellipsis;
+		}
+	}
+	&.showMoreTag {
+		.selectedFiltertags {
+			overflow: hidden;
+			max-height: 65px;
+		}
+	}
+	.showmore {
+		color: #6bb9ee;
+		text-decoration: underline;
+		display: flex;
+		width: 100%;
+	}
+}
+
+.topSearch {
+	margin-bottom: 15px;
+	@media (max-width: 1024px) {
+		margin-bottom: 10px;
+	}
+	.ant-input-affix-wrapper {
+		height: 35px;
+		background: #ffffff;
+		box-shadow: none;
+		border: 0;
+		border-radius: 0;
+		border-bottom: 1px solid #2b2b2b;
+		padding-left: 25px;
+		.ant-input{line-height: 18px;}
+		&.ant-input-affix-wrapper-focused {
+			box-shadow: none !important;
+		}
+	}
+	.ant-input-group-addon {
+		position: absolute;
+		left: 0;
+		top: -4px;
+		.ant-btn {
+			padding: 2px 0;
+			height: 35px;
+			border-radius: 0 !important;
+			background-color: #fff;
+			border-color: #fff;
+			color: #2b2b2b;
+			font-size: 1rem;
+			box-shadow: none;
+		}
+	}
+}
+.filterByCatagory {
+	// .ant-input-search {
+	// 	padding: 2px 11px;
+	// 	border: 1px solid #2b2b2b33;
+	// 	border-radius: 30px;
+	// 	.ant-input {
+	// 		border: 0;
+	// 		padding: 5px;
+	// 	}
+	// 	&:focus,
+	// 	.ant-input:focus {
+	// 		box-shadow: none;
+	// 	}
+	// 	.ant-input-search-button {
+	// 		border: 0;
+	// 	}
+	// 	.ant-input-suffix .ant-input-search-icon::before {
+	// 		display: none;
+	// 	}
+	// 	.ant-input-search-icon {
+	// 		padding: 0;
+	// 	}
+	// }
+	.filterbox {
+		padding-top: 15px;
+		border-top: 1px solid #2b2b2b33;
+		@media (max-width: 1024px) {
+			padding-top: 12px;
+			&:first-child {
+				padding-top: 5px;
+			}
+		}
+		.ant-rate {
+			font-size: 1rem;
+			margin-top: -1px;
+			margin-right: 5px;
+		}
+		.ant-radio-wrapper {
+			width: 100%;
+			margin-bottom: 15px;
+			display: flex;
+			color: #2b2b2b;
+			align-items: start;
+			line-height: 100%;
+			.ant-radio {
+				.ant-radio-input:focus + .ant-radio-inner {
+					border-color: #7721D1 !important;
+				}
+				.ant-radio-inner {
+					border-color: #e4e4e7;
+					width: 14px;
+					height: 14px;
+					&:after {
+						top: 2px;
+						left: 2px;
+						background: #7721D1;
+						border-color: #7721D1;
+					}
+				}	&.ant-radio-checked {
+					.ant-radio-inner {
+						border-color: #7721D1;
+					}
+				}
+			}
+		
+		}
+	}
+	.categories_list {
+		// padding-left: 5px;
+		.ant-checkbox-wrapper {
+			width: 100%;
+			margin-bottom: 15px;
+			display: flex;
+			color: #2b2b2b;
+			align-items: start;
+			line-height: 1.14rem;
+			
+			.ant-checkbox {
+				@media (min-width:1200px){
+					top: -1px;
+				}
+				.ant-checkbox-input:focus + .ant-checkbox-inner {
+					border-color: #7721D1 !important;
+				}
+				.ant-checkbox-inner {
+					border-radius: 2px;
+					border-color: #e4e4e7;
+					width: 14px;
+					height: 14px;
+					&:after {
+						width: 5px;
+						height: 8px;
+					}
+				}
+				&.ant-checkbox-checked {
+					.ant-checkbox-inner {
+						border-color: #7721D1;
+						//background: #2b2b2b;
+					}
+				}
+			}		
+			.custIcon-staricon {
+				font-size: 1rem;
+				top: -4px;
+				position: relative;
+			}
+			+ .ant-checkbox-wrapper {
+				margin-left: 0;
+			}
+		}
+	}
+}
+.ant-rate-star-second {
+	color: #fff;
+}
+.filterCol {
+	width: 315px;
+	padding-right: 15px;
+	@media (max-width: 1199px) {
+		width: 100%;
+		padding-right: 0;
+	}
+}
+.ant-input-affix-wrapper-focused {
+	box-shadow: none !important;
+}
+.allListing {
+	//width: calc(100% - 315px);
+	@media (max-width: 1199px) {
+		width: 100%;
+	}
+}

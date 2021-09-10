@@ -1,0 +1,290 @@
+@import url('../../Assets/Less/Variable.less');
+
+.home {
+	background-color: #eeeeee;
+}
+
+.ant-select-show-search {
+	.ant-select-selection-item {
+		.ant-avatar-image {
+			display: none;
+		}
+	}
+}
+.selectBtmRow {
+	padding: 15px 0;
+	border-bottom: 1px solid #efefef;
+	color: #000;
+	margin: 0 20px;
+	@media (max-width: 767px) {
+		margin: 0 10px;
+		padding: 10px 0;
+	}
+	.selectRepTXT {
+		cursor: pointer;
+	}
+}
+.filterbySelect {
+	min-width: 170px;
+}
+.timeCir {
+	width: 16px;
+	height: 16px;
+	display: inline-block;
+	vertical-align: middle;
+	margin-right: 10px;
+	border-radius: 50%;
+	display: inline-block;
+}
+.col1 {
+	border: 2px solid #04a825;
+}
+.col2 {
+	border: 2px solid #fbb511;
+}
+.col3 {
+	border: 2px solid #989898;
+}
+
+.ant-tree-select-dropdown {
+	z-index: 0;
+}
+
+.timeuser1 {
+	background: #04a825 !important;
+}
+.timeuser2 {
+	background: #fbb511 !important;
+}
+.timeuser3 {
+	background: #989898 !important;
+}
+.timeuser4 {
+	background: #000000 !important;
+}
+
+.mapBtn {
+	background-color: #2b2b2b;
+	border-color: #2b2b2b;
+}
+.ant-select-dropdown {
+	box-shadow: none !important;
+	border: 1px solid #a2a2a2;
+}
+.ant-select-tree-node-content-wrapper .ant-avatar {
+	margin-right: 5px;
+}
+
+// .googleMapReact {
+// 	max-height: calc(100vh - 250px) !important;
+// 	min-height: 500px;
+// }
+
+.reporterMap {
+	height: calc(100vh - 300px) !important;
+}
+
+.ant-modal-body {
+	padding: 12px 24px 24px;
+}
+.ant-select-dropdown {
+	box-shadow: 0px 0px 3px #2b2b2b33;
+	border-radius: 10px;
+	border: 1px solid #f1f1f1;
+}
+.selectRepBlk {
+	.ant-select-tree-list-holder-inner {
+		flex-direction: row !important;
+		flex-wrap: wrap;
+		padding: 20px;
+		@media (max-width: 767px) {
+			padding: 10px;
+		}
+		.ant-select-tree-treenode {
+			max-width: 32.5%;
+			flex: 0 0 32.5%;
+			margin-right: 1.2%;
+			border: 1px solid #2b2b2b1a;
+			border-radius: 10px;
+			padding: 0;
+			position: relative;
+			margin-bottom: 15px;
+			@media (max-width: 767px) {
+				max-width: 49%;
+				flex: 0 0 49%;
+				margin: 0 0.5% 10px !important;
+			}
+			@media (max-width: 575px) {
+				max-width: 100%;
+				flex: 0 0 100%;
+				margin: 0 0 10px !important;
+			}
+			.ant-select-tree-switcher {
+				width: auto;
+			}
+			.ant-select-tree-checkbox {
+				top: 10px;
+				position: absolute;
+				right: 15px;
+				.ant-select-tree-checkbox-inner {
+					border: 1px solid #2b2b2b1a;
+				}
+			}
+			&:nth-child(3n) {
+				margin-right: 0;
+			}
+			.ant-select-tree-node-content-wrapper {
+				background: transparent !important;
+				padding: 15px;
+			}
+		}
+	}
+	.ant-btn {
+		min-width: 95px;
+	}
+}
+
+.ant-form-item {
+	margin-bottom: 8px;
+}
+.ant-form-vertical {
+	.ant-form-item-label {
+		padding: 0 0 0px;
+	}
+}
+
+.infoForm {
+	.infoIcon {
+		position: absolute;
+		right: 0;
+		top: -26px;
+	}
+}
+
+.addReqMapPopup {
+	.ant-modal {
+		max-width: calc(100vw - 40px);
+		.ant-modal-body,
+		.ant-modal-header {
+			padding: 15px;
+		}
+	}
+}
+.pr_profile {
+	.profile_img_intial {
+		height: 78px;
+		width: 78px;
+		font-size: 35px; //35px
+		text-transform: uppercase;
+	}
+}
+.getReporterUser {
+	.reporterActive {
+		background-color: #22c55e;
+		width: 6px;
+		height: 6px;
+		border-radius: 50%;
+		position: absolute;
+		left: 8px;
+		top: 8px;
+	}
+	.gruuserName {
+		white-space: nowrap;
+		overflow: hidden;
+		text-overflow: ellipsis;
+		font-weight: 600;
+		text-transform: capitalize;
+		font-size: 1rem;
+		line-height: 100%;
+	}
+	.gruserlocation {
+		color: #2b2b2b66;
+		font-size: 0.85rem;
+		line-height: 100%;
+		padding-top: 8px;
+		.anticon {
+			svg {
+				margin-top: -2px;
+			}
+		}
+	}
+}
+.ant-select-selection-item {
+	position: relative;
+	.ant-select-selection-item-content {
+		padding-left: 0;
+		.getReporterUser {
+			.reporterActive {
+				position: relative;
+				left: auto;
+				right: auto;
+				display: inline-block;
+				vertical-align: top;
+				margin-right: 5px;
+			}
+			.gruuserName {
+				color: #a1a1aa;
+				font-weight: 400;
+				font-size: 0.71rem;
+				padding-top: 4px;
+				line-height: 1rem;
+				display: inline-block;
+				vertical-align: top;
+			}
+			.gruserlocation {
+				display: none;
+			}
+		}
+		.ant-select-selection-item-remove {
+			position: absolute;
+			left: 10px;
+		}
+	}
+}
+.ant-select-multiple {
+	.ant-select-selector {
+		height: auto;
+		min-height: 40px;
+	}
+}
+.liveStream {
+	margin-left: 10px;
+	@media (max-width: 1024px) {
+		margin-left: 5px;
+	}
+	.ant-form-item-label {
+		padding-left: 10px;
+	}
+}
+
+.list-applicant {
+	color: #23232366;
+	font-size: 10px;
+}
+.tour-addRequest-form {
+	.ant-radio-inner {
+		top: -1px;
+	}
+}
+.storyPriceIcon {
+	.ant-form-item-control-input-content {
+		position: relative;
+		z-index: 0;
+		.dollarIcon {
+			background: #f4f4f5;
+			border-radius: 0px 4px 4px 0px;
+			height: 40px;
+			line-height: 40px;
+			width: 45px;
+			text-align: center;
+			font-size: 18px;
+			color: #a3a3a4;
+			position: absolute;
+			left: 0;
+			z-index: 1;
+		}
+		.ant-input-number-input-wrap {
+			padding-left: 45px;
+		}
+	}
+}

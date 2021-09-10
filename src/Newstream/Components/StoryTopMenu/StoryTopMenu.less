@@ -1,0 +1,58 @@
+@import url('../../Assets/Less/Variable.less');
+
+.filterbySelect {
+	&.ant-select-single:not(.ant-select-customize-input) .ant-select-selector {
+		height: 32px;
+	}
+	&.ant-select-single {
+		.ant-select-selector {
+			.ant-select-selection-placeholder,
+			.ant-select-selection-item {
+				line-height: 2.2;
+			}
+		}
+	}
+	@media (max-width: 565px) {
+		min-width: 150px;
+	}
+	@media (max-width: 480px) {
+		min-width: 125px;
+	}
+}
+// .topMainFilter{
+//     .ant-btn{
+//         background-color: #333333;
+//         border-color: #333333;
+//     }
+// }
+.viewSwitchround {
+	background: #fff;
+	border-radius: 25px;
+	border: 1px solid #454545;
+	margin-right: 20px;
+	@media (max-width: 480px) {
+		margin-right: 0px;
+	}
+	.ant-radio-button-wrapper {
+		border-radius: 30px;
+		border: 0 !important;
+		color: #454545;
+		line-height: 2;
+		height: 30px;
+		@media (max-width: 480px) {
+			height: 27px;
+			font-size: 13px;
+			padding: 0 10px;
+		}
+		&:not(:first-child)::before {
+			display: none;
+		}
+		&.ant-radio-button-wrapper-checked {
+			&,
+			&:not(.ant-radio-button-wrapper-disabled):active,
+			&:not(.ant-radio-button-wrapper-disabled):hover {
+				background: #454545;
+			}
+		}
+	}
+}

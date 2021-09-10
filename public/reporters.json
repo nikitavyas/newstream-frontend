@@ -1,0 +1,184 @@
+{
+	"html_attributions": [],
+	"next_page_token": "CpQCDwEAAJwdqLU_q4CMC9j-DOFIiwmwpP8ICAF_lHHKpWrNLfYsLS0hubKFTbau5sp7Tc_vC2bftXqZSRfq4uMk34-nE1f3weBRv77ZvsUhQn1MvJCfW6pNFA6zrDP_lPLBQZVrGVePIGhW8g485WnZdAHUyKpr4jjJ6hiOh2R6MxVBTYHyRuy5mDa-NGx4zQXDsHGSejOPH6BmPUoyfb-2MmRo1kcYABkBZRAaXpDmTtoXLmX8GxELbMOOAjEJ8Vzxdk-4GQkzoDYB1YwHBR1JXzxlawX0DdUyaJKjLWGjvt8GOwF8d9KVTF0r528jDCheFjvRgxOGMeYq1IrUx9lBofHH4sAX2plD6BGumN40mdBkDKVMEhC8pyLxL6t51mflBEc_WkF6GhTsH0kHwldrZYDnyUZ78TU9zeiiqg",
+	"results": [
+		{
+			"location": "5X77+M8 Beerwah, Queensland, Australia",
+			"geometry": {
+				"location": {
+					"lat": 34.0771192,
+					"lng": -118.2587199
+				},
+				"viewport": {
+					"northeast": {
+						"lat": 34.07856197989273,
+						"lng": -118.2573112201073
+					},
+					"southwest": {
+						"lat": 34.07586232010728,
+						"lng": -118.2600108798928
+					}
+				}
+			},
+			"id": "d8bc8d867ccf72cbc552e100238a0820628963ee",
+			"reporter": "Alexis Brown",
+			"price": "32",
+			"reporter_image": "Alexis-Brown.jpg",
+			"date": "01/28/2020",
+			"type": "48_hours"
+		},
+		{
+			"location": "21269 Stevens Creek Blvd, Cupertino, CA 95014, USA",
+			"geometry": {
+				"location": {
+					"lat": 34.083527,
+					"lng": -118.370157
+				},
+				"viewport": {
+					"northeast": {
+						"lat": 34.08495787989272,
+						"lng": -118.3688093201073
+					},
+					"southwest": {
+						"lat": 34.08225822010727,
+						"lng": -118.3715089798927
+					}
+				}
+			},
+			"id": "8529e7504ec45e2f380310882a3bd05fe050d701",
+			"reporter": "Brett Shaw",
+			"price": "22",
+			"reporter_image": "Brett-Shaw.jpg",
+			"date": "01/28/2020",
+			"type": "week_ago"
+		},
+		{
+			"location": "476 Broome St, NY 10013",
+			"geometry": {
+				"location": {
+					"lat": 34.1033401,
+					"lng": -118.2875469
+				},
+				"viewport": {
+					"northeast": {
+						"lat": 34.10468952989272,
+						"lng": -118.2861405701073
+					},
+					"southwest": {
+						"lat": 34.10198987010727,
+						"lng": -118.2888402298927
+					}
+				}
+			},
+			"id": "1401d50571af0bd7fc0267e6a3635bfb3d3dbda2",
+			"reporter": "Mei Hu",
+			"price": "45",
+			"reporter_image": "Mei-Hu.jpg",
+			"date": "02/02/2020",
+			"type": "6_hours"
+		},
+		{
+			"location": "65 George St, Brooklyn, NY 11206",
+			"geometry": {
+				"location": {
+					"lat": 34.035798,
+					"lng": -118.251288
+				},
+				"viewport": {
+					"northeast": {
+						"lat": 34.03709272989273,
+						"lng": -118.2499997201073
+					},
+					"southwest": {
+						"lat": 34.03439307010728,
+						"lng": -118.2526993798928
+					}
+				}
+			},
+			"id": "01c75569ea2c5ee7ae29e91990ff4d872bc1ca5b",
+			"reporter": "Tim Carter",
+			"price": "45",
+			"reporter_image": "",
+			"date": "18/7/2019",
+			"type": "week_ago"
+		},
+		{
+			"location": "1047 S Fairfax Ave, Los Angeles, CA 90019, USA",
+			"geometry": {
+				"location": {
+					"lat": 34.0568525,
+					"lng": -118.3646369
+				},
+				"viewport": {
+					"northeast": {
+						"lat": 34.05817752989272,
+						"lng": -118.3632100701073
+					},
+					"southwest": {
+						"lat": 34.05547787010728,
+						"lng": -118.3659097298927
+					}
+				}
+			},
+			"icon": "https://maps.gstatic.com/mapfiles/place_api/icons/restaurant-71.png",
+			"id": "6f73d8dfd2f3dc8b08d127ea3d0691b33030973b",
+			"reporter": "Sue Martin",
+			"price": "45",
+			"reporter_image": "Sue-Martin.jpg",
+			"date": "18/7/2019",
+			"type": "weerk_ago"
+		},
+		{
+			"location": "525 FM1082, Abilene, TX 79601, USA",
+			"geometry": {
+				"location": {
+					"lat": 34.0285781,
+					"lng": -118.4115541
+				},
+				"viewport": {
+					"northeast": {
+						"lat": 34.02999047989272,
+						"lng": -118.4102540701073
+					},
+					"southwest": {
+						"lat": 34.02729082010728,
+						"lng": -118.4129537298927
+					}
+				}
+			},
+			"icon": "https://maps.gstatic.com/mapfiles/place_api/icons/restaurant-71.png",
+			"id": "92cc1f89e314ba9e518f1d7aa345a57441affe39",
+			"reporter": "Sarah Marks",
+			"price": "12",
+			"reporter_image": "",
+			"date": "02/02/2020",
+			"type": "48_hours"
+		},
+		{
+			"location": "800 W Katella Ave, Anaheim, CA 92802, USA",
+			"geometry": {
+				"location": {
+					"lat": 33.835293,
+					"lng": -117.914505
+				},
+				"viewport": {
+					"northeast": {
+						"lat": 34.03709272989273,
+						"lng": -118.2499997201073
+					},
+					"southwest": {
+						"lat": 34.03439307010728,
+						"lng": -118.2526993798928
+					}
+				}
+			},
+			"id": "01c75569ea2c5ee7ae29e91990ff4d872bc1ca5c",
+			"reporter": "John Davis",
+			"price": "20",
+			"reporter_image": "",
+			"date": "10/02/2020",
+			"type": "6_hours"
+		}
+	],
+	"status": "OK"
+}

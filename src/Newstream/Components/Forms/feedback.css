@@ -1,0 +1,14 @@
+.feedbackForm .upload_blk {
+  margin-top: 10px;
+}
+.feedbackForm .upLoadSection .custIcon-upload {
+  font-size: 40px;
+  line-height: 1;
+  display: flex !important;
+  align-items: center;
+  justify-content: center;
+}
+.feedbackForm .upLoadSection .ant-upload-text {
+  font-size: 10px;
+  color: #888888;
+}

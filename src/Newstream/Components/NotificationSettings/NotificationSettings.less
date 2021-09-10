@@ -1,0 +1,166 @@
+@import url('../../Assets/Less/Variable.less');
+
+.notificationbox {
+	border-radius: 10px;
+	box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.06);
+	.ant-card-body {
+		@media (max-width: 767px) {
+			padding: 15px;
+		}
+		.ant-collapse {
+			border: 0;
+			background: transparent;
+			.ant-collapse-item {
+				box-shadow: 0px 0px 3px #2b2b2b33;
+				border-radius: 10px;
+				margin-bottom: 20px;
+				border: 0;
+				.ant-collapse-header {
+					background-color: #f5f5f5;
+					padding: 10px 50px 10px 20px;
+					border-radius: 10px 10px 0 0;
+					font-size: 1.14rem;
+					font-weight: 700;
+					@media (max-width: 767px) {
+						padding: 10px 25px 10px 10px;
+						font-size: 14px;
+					}
+					@media (max-width: 575px) {
+						padding: 10px 15px 10px 10px;
+						font-size: 13px;
+					}
+					.ant-collapse-arrow {
+						color: #a7a7a7;
+						right: 20px;
+						padding-top: 6px;
+
+						@media (max-width: 575px) {
+							right: 5px;
+						}
+					}
+					.ant-collapse-extra {
+						width: 31%;
+						@media (max-width:1199px) {
+							width: 36%;
+						}
+						@media (max-width: 767px) {
+							display: flex;
+							flex-wrap: wrap;
+							width: 50%;
+						}
+						.notifylabel {
+							color: #a7a7a7;
+							display: inline-block;
+							text-align: center;
+							width: 50%;
+							font-size: 1rem;
+							font-weight: 400;
+							@media (max-width: 767px) {
+								// width: 100px;
+								font-size: 12px;
+							}
+							@media (max-width: 575px) {
+								width: auto;
+								-ms-flex: 0 0 50%;
+								flex: 0 0 50%;
+								max-width: 50%;
+								font-size: 12px;
+							}
+							.anticon {
+								margin-right: 10px;
+								@media (max-width: 575px) {
+									margin-right: 5px;
+								}
+								svg {
+									margin-top: -3px;
+								}
+							}
+						}
+					}
+				}
+			}
+			.ant-collapse-content {
+				border-top: 0;
+				border-radius: 0 0 10px 10px;
+				.ant-collapse-content-box {
+					padding: 15px 20px;
+					@media (max-width: 767px) {
+						padding: 10px;
+					}
+					.notifylist {
+						padding: 10px 0;
+						color: #a1a1aa;
+						label {
+							font-size: 1rem;
+							margin-bottom: 0;
+						}
+						@media (max-width: 767px) {
+							font-size: 12px;
+						}
+						.notifycheckbox {
+							text-align: center;
+							.ant-checkbox-inner {
+								border-radius: 0;
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+}
+.notificationAction {
+	border-radius: 0;
+	&:not(:last-child) {
+		border-bottom: 0;
+	}
+	.ant-card-body {
+		padding: 14px 20px;
+		@media (max-width: 767px) {
+			padding: 10px;
+		}
+	}
+	.notificationActionTxt {
+		strong {
+			font-size: 16px;
+			color: #000;
+		}
+		span {
+			font-size: 13px;
+			color: #7f7f7f;
+		}
+	}
+	.notificationActionSwitch {
+		.ant-switch {
+			background-color: #333333;
+			&.ant-switch-checked {
+				background-color: #1ab42f;
+			}
+		}
+		.ant-switch {
+			min-width: 70px;
+			height: 26px;
+		}
+		.ant-switch-loading-icon,
+		.ant-switch::after {
+			top: 0px;
+			left: 0px;
+			width: 24px;
+			height: 24px;
+		}
+		.ant-switch-checked::after {
+			left: 100%;
+			margin-left: 0px;
+			-webkit-transform: translateX(-100%);
+			transform: translateX(-100%);
+		}
+	}
+}
+
+.myNotificationSettings_blk {
+	.ant-card-body {
+		@media (max-width: 767px) {
+			padding: 10px;
+		}
+	}
+}

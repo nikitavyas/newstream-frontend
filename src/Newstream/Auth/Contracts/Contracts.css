@@ -1,0 +1,76 @@
+.signContractPage {
+	min-height: 100vh;
+}
+.signContractPage .signContractCard {
+	max-width: 900px;
+	width: 90%;
+	border-radius: 15px;
+	border: 0;
+	overflow: hidden;
+	box-shadow: 0px 3px 6px #0000001a;
+}
+.signContractPage .signContractCard .ant-card-body {
+	padding: 0;
+}
+.signContractPage .signContractCard .ant-card-body .signContractFormLeft {
+	padding: 30px;
+}
+@media (max-width: 575px) {
+	.signContractPage .signContractCard .ant-card-body .signContractFormLeft {
+		padding: 15px;
+	}
+}
+@media (min-width: 768px) {
+	.signContractPage
+		.signContractCard
+		.ant-card-body
+		.signContractFormLeft
+		.signContractForm_blk {
+		width: 100%;
+	}
+}
+.signContractPage
+	.signContractCard
+	.ant-card-body
+	.signContractFormLeft
+	.signContractLogo {
+	margin-bottom: 40px;
+}
+@media (max-width: 767px) {
+	.signContractCard {
+		margin-top: 50px;
+	}
+}
+
+@media (max-width: 575px) {
+	.signContractPage
+		.signContractCard
+		.ant-card-body
+		.signContractFormLeft
+		.signContractLogo {
+		margin-bottom: 20px;
+	}
+}
+.signContractPage
+	.signContractCard
+	.ant-card-body
+	.signContractFormLeft
+	.signContractLogo
+	img {
+	max-width: 100%;
+	height: 32px;
+}
+.signLink {
+	color: #137df9 !important;
+}
+.contractPop .ant-modal {
+	width: 90% !important;
+	max-width: 1000px;
+}
+.contractPop .ant-modal-body {
+	min-height: calc(100vh - 100px);
+}
+.contractPop .ant-modal-body iframe {
+	height: calc(100vh - 150px) !important;
+	width: 100% !important;
+}

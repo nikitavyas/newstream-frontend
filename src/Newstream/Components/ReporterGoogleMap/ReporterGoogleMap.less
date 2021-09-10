@@ -1,0 +1,94 @@
+@import url('../../Assets/Less/Variable.less');
+
+.invitedthumbs {
+	.ant-avatar-image {
+		background: #fff;
+		margin-right: -10px;
+		box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+		// padding: 2px;
+		vertical-align: top;
+	}
+}
+
+.markerPopOver {
+	&.ant-popover-placement-topLeft {
+		.ant-popover-arrow {
+			width: 15px;
+			height: 15px;
+			bottom: 0 !important;
+			border-width: 15px;
+		}
+	}
+}
+.repoPopup {
+	&.mapboxgl-popup-anchor-top {
+		top: 50px;
+	}
+	&.mapboxgl-popup-anchor-bottom {
+		top: -12px;
+	}
+
+	.mapboxgl-popup-content {
+		padding: 15px;
+		box-shadow: 3px 3px 10px #0000002e;
+		border-radius: 10px;
+	}
+	.rbTitle {
+		h3 {
+			font-size: 1.15rem;
+			color: #000;
+			margin-bottom: 0;
+		}
+	}
+	.onReporterSelection {
+		transform: scale(0.8);
+		transform-origin: right;
+	}
+	.fulladdress {
+		max-width: 300px;
+	}
+}
+.markar {
+	width: 65px;
+	position: relative;
+}
+.markar .custIcon-marker {
+	font-size: 65px;
+}
+.markar .custIcon-marker svg {
+	-webkit-filter: drop-shadow(0px 10px 10px #00000029);
+	filter: drop-shadow(0px 10px 10px #00000029);
+}
+.markar .markarTxt {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+}
+.markar .markarTxt .colorCircul {
+	width: 40px;
+	height: 40px;
+	background: #333333;
+	border-radius: 50%;
+	margin-top: 3px;
+	margin-right: 1px;
+	color: #fff;
+	font-size: 12px;
+	line-height: 1.6;
+}
+.markar .markarTxt .colorCircul .custIcon,
+.markar .markarTxt .colorCircul .anticon {
+	line-height: 1;
+	font-size: 10px;
+}
+.markar .markarTxt .colorCircul.fav {
+	background-color: #7721d1;
+}
+.markar .markarTxt .colorCircul.fav .custIcon,
+.markar .markarTxt .colorCircul.fav .anticon {
+	color: #efce4a;
+}
+.markar .markarTxt .colorCircul.user {
+	background-color: #ef8000;
+}

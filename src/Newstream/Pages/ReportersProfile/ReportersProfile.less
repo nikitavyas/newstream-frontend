@@ -1,0 +1,121 @@
+@import url('../../Assets/Less/Variable.less');
+
+.rp_storiesSummary {
+	.ant-card-body {
+		padding: 20px;
+		width: 100%;
+		h3 {
+			font-weight:700;
+			color: #7721d1 !important;
+			margin-bottom:10px;
+			font-size: 24px;
+			@media (max-width: 1366px) {
+				max-width: 100%;
+			}
+		}
+		small {
+			color: #7721d1;
+		}
+	}
+	.requestStatusTxt {
+		text-align: center;
+	}
+}
+.rp_ReporterContractList {
+	.rp_ReporterInvoice {
+		padding-top: 15px;
+		padding-bottom: 15px;
+		&:not(:last-child) {
+			border-bottom: 1px solid #f1f1f1;
+		}
+		&:first-child {
+			padding-top: 0;
+		}
+		&:last-child {
+			padding-bottom: 0;
+		}
+	}
+	.rp_ReporterContract {
+		padding-top: 15px;
+		padding-bottom: 15px;
+		&:not(:last-child) {
+			border-bottom: 1px solid #f1f1f1;
+		}
+		&:first-child {
+			padding-top: 0;
+		}
+		&:last-child {
+			padding-bottom: 0;
+		}
+	}
+	.commontable {
+		.ant-table-container {
+			box-shadow: none;
+			border: 1px solid rgba(43, 43, 43, 0.10196078431372549);
+			overflow: hidden;
+			td{height: 58px;}
+		}
+	}
+}
+.rp_ReporterInvoiceList {
+	@media (max-width: 991px) {
+		.ant-card-body {
+			padding: 15px 10px;
+		}
+	}
+	.rp_ReporterInvoice {
+		padding-top: 15px;
+		padding-bottom: 15px;
+		&:not(:last-child) {
+			border-bottom: 1px solid #f1f1f1;
+		}
+		&:first-child {
+			padding-top: 0;
+		}
+		&:last-child {
+			padding-bottom: 0;
+		}
+	}
+}
+.pr_profile {
+	.profile_img_intial {
+		height: 78px;
+		width: 78px;
+		font-size: 35px; //35px
+		text-transform: uppercase;
+	}
+}
+@media (max-width: 768px) {
+	.pr_profile {
+		margin-bottom: 20px;
+	}
+}
+
+.ant-table table thead > tr > th {
+	white-space: nowrap;
+}
+
+.acceptBtn {
+	background-color: #f1fbf6;
+	border-color: #227d51;
+	color: #227d51;
+	&:hover,
+	&:focus,
+	&:active {
+		background-color: #e2f7ec !important;
+		border-color: #227d51;
+		color: #227d51;
+	}
+}
+.rejectBtn {
+	background-color: #ffefef;
+	border-color: #f94444;
+	color: #f94444;
+	&:hover,
+	&:focus,
+	&:active {
+		background-color: #ffdbdb !important;
+		border-color: #f94444;
+		color: #f94444;
+	}
+}

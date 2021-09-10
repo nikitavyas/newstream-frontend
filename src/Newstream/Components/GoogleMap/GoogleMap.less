@@ -1,0 +1,181 @@
+@import url('../../Assets/Less/Variable.less');
+
+.invitedthumbs .ant-avatar-image {
+	background: #fff;
+	margin-right: -10px;
+	box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+	// padding: 2px;
+	vertical-align: top;
+}
+
+.markerPopOver {
+	@media (max-width: 575px) {
+		max-width: 320px;
+	}
+
+	&.ant-popover-placement-topLeft {
+		.ant-popover-arrow {
+			width: 15px;
+			height: 15px;
+			bottom: 0 !important;
+			border-width: 15px;
+		}
+	}
+}
+
+// .pin-price { position: relative;
+//     span {
+//      color: #fff; position: absolute; left: 10px; top: 42px; width: 60px; text-align: center;  text-shadow:0px 0px 2px rgba(0,0,0,0.7);
+//     }
+// }
+.pin-price {
+	display: flex;
+	position: relative;
+	justify-content: center;
+}
+
+.pin-price > span {
+	position: absolute;
+	text-align: center;
+	top: 40px;
+	color: #fff;
+	font-size: 13px;
+	text-shadow: 0px 0px 2px rgba(0, 0, 0, 0.7);
+	max-width: 50px;
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+}
+
+.lbl-breaking-btn {
+	border: 1px solid #ffddb5;
+	color: #ef8000;
+	background: #fff6eb;
+}
+.lbl-marketplace-btn {
+	border: 1px solid #ffddb5;
+	color: #ef8000;
+	background: #fff6eb;
+}
+.lbl-assigned-btn {
+	border: 1px solid #dcc4f6;
+	color: #7721d1;
+	background: #f4e9ff;
+}
+.lbl-open-btn {
+	border: 1px solid #dcc4f6;
+	color: #7721d1;
+	background: #f4e9ff;
+}
+.lbl-breaking {
+	border: 1px solid #ffddb5;
+	color: #ef8000;
+	background: #fff6eb;
+}
+.lbl-marketplace {
+	border: 1px solid #ffddb5;
+	color: #ef8000;
+	background: #fff6eb;
+}
+.lbl-assigned {
+	border: 1px solid #dcc4f6;
+	color: #7721d1;
+	background: #f4e9ff;
+}
+.lbl-open {
+	border: 1px solid #dcc4f6;
+	color: #7721d1;
+	background: #f4e9ff;
+}
+.lbl-purchased {
+	border: 1px solid #97dbba;
+	color: #038e4b;
+	background: #ddfbec;
+}
+.lbl-rejected {
+	border: 1px solid #f94444;
+	color: #f94444;
+	background: #ffefef;
+}
+.lbl-approved {
+	border: 1px solid #3bb12f;
+	color: #3bb12f;
+	background: #e7ffe5;
+}
+.lbl-rejected,
+.lbl-approved,
+.lbl-breaking-btn,
+.lbl-assigned-btn,
+.lbl-marketplace-btn,
+.lbl-open-btn,
+.lbl-breaking,
+.lbl-marketplace,
+.lbl-assigned,
+.lbl-open,
+.lbl-purchased {
+	font-size: 13px;
+	border-radius: 20px;
+	height: 25px;
+	padding: 1px 15px;
+	line-height: 1.3;
+	img {
+		height: 15px;
+		margin-right: 5px;
+	}
+}
+.googleMapPop {
+	max-width: 400px;
+	min-width: 400px;
+	top: -100px;
+	@media (max-width: 480px) {
+		max-width: 300px;
+		min-width: 300px;
+	}
+	.mapboxgl-popup-content {
+		padding: 20px;
+		box-shadow: 3px 3px 10px #0000002e;
+		border-radius: 10px;
+		max-width: 400px;
+
+		.rbTitle h3 {
+			font-size: 16px;
+			margin: 0;
+			color: #000 !important;
+			word-break: break-word;
+		}
+
+		.sdLocation,
+		.gDate {
+			color: #888888;
+			font-size: 14px;
+			margin-bottom: 5px;
+			.myReQLocation {
+				max-width: 200px;
+				margin-right: 15px;
+			}
+			.anticon {
+				color: #232323;
+			}
+		}
+		.userInCard {
+			.uicTop {
+				font-size: 15px;
+				letter-spacing: 0.75px;
+				color: #000000;
+			}
+		}
+		.priceAmt {
+			font-size: 18px;
+			font-weight: 400;
+			display: flex;
+			strong {
+				white-space: nowrap;
+				max-width: 70px;
+				overflow: hidden;
+				display: block;
+				text-overflow: ellipsis;
+				margin-left: 5px;
+			}
+		}
+	}
+}

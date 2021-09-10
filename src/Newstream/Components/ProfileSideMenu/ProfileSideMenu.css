@@ -1,0 +1,39 @@
+.verticalNav {
+  height: 100%;
+  border-radius: 10px;
+  overflow: hidden;
+  min-height: 60vh;
+}
+@media (max-width: 991px) {
+  .verticalNav {
+    margin-bottom: 15px;
+    height: auto;
+  }
+}
+.verticalNav.ant-menu-vertical .ant-menu-item {
+  margin: 0 !important;
+}
+.verticalNav.ant-menu-vertical .ant-menu-item-selected {
+  background-color: #2b2b2b;
+  color: #fff;
+}
+.rightSideSetting {
+  -webkit-box-shadow: 0px 0px 6px #2b2b2b1a;
+  box-shadow: 0px 0px 6px #2b2b2b1a;
+  border-radius: 0 0 10px 10px;
+  min-height: calc(100vh - 270px);
+  border: 0;
+}
+.rightSideSetting .ant-card-body {
+  padding: 40px;
+}
+@media (max-width: 1200px) {
+  .rightSideSetting .ant-card-body {
+    padding: 1.33rem;
+  }
+}
+.rightSideSetting .ant-card-body .ant-btn-lg {
+  font-weight: 700;
+  font-size: 1.07rem;
+  letter-spacing: 0.38px;
+}

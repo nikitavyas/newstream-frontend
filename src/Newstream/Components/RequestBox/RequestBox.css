@@ -1,0 +1,67 @@
+.invitedthumbs .ant-avatar-image {
+  background: #fff;
+  margin-right: -5px;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+  vertical-align: top;
+}
+.requestBox_blk .ant-card-body {
+  padding: 15px 25px;
+}
+@media (max-width: 991px) {
+  .requestBox_blk .ant-card-body {
+    padding: 15px;
+  }
+}
+.requestBox_blk .rbTitle h3 {
+  font-size: 18px;
+  font-weight: 500;
+  word-break: break-word;
+  letter-spacing: 0.45px;
+  color: #000000 !important;
+  opacity: 1;
+}
+.requestBox_blk .locTxt,
+.requestBox_blk .dateTxt {
+  font-size: 15px;
+  letter-spacing: 0.75px;
+  color: #888888;
+}
+.requestBox_blk .locTxt .gray-text-color,
+.requestBox_blk .dateTxt .gray-text-color {
+  word-break: break-word;
+  max-width: 90%;
+}
+@media (min-width: 991px) {
+  .requestBox_blk .locTxt .gray-text-color,
+  .requestBox_blk .dateTxt .gray-text-color {
+    width: 450px;
+  }
+}
+@media (min-width: 1200px) {
+  .requestBox_blk .locTxt .gray-text-color,
+  .requestBox_blk .dateTxt .gray-text-color {
+    width: 650px;
+  }
+}
+@media (max-width: 768px) {
+  .requestBox_blk .viewCounter {
+    margin-top: 10px;
+  }
+}
+@media (max-width: 768px) {
+  .requestBox_blk .viewCounter span:not(.anticon) {
+    margin-right: 0px;
+  }
+}
+.requestBox_blk .praposalTxt {
+  font-size: 15px;
+}
+.requestBox_blk .price-btn {
+  font-size: 16px;
+  line-height: 19px;
+  font-weight: 400;
+  color: #ffffff;
+  height: 34px;
+  margin-right: -26px;
+  padding-right: 25px;
+}

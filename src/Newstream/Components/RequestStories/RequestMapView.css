@@ -1,0 +1,55 @@
+.requestsMapsPopup .viewCounter .custIcon {
+  color: #7721d1;
+}
+.requestsMapsPopup {
+  top: -105px;
+}
+.requestsMapsPopup .mapboxgl-popup-content {
+  width: 410px;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 3px 3px 10px #0000002e;
+}
+@media (max-width: 575px) {
+  .requestsMapsPopup .mapboxgl-popup-content {
+    width: 290px;
+  }
+}
+.requestsMapsPopup .mapboxgl-popup-content .ant-card-body {
+  padding: 15px;
+}
+.requestsMapsPopup .mapboxgl-popup-content .ant-card-body .rbTitle h3 {
+  color: #000000;
+  font-size: 14px;
+  font-weight: 500;
+  word-break: break-word;
+}
+.requestsMapsPopup .mapboxgl-popup-content .ant-card-body .viewCounter .custIcon {
+  font-size: 20px;
+}
+.requestsMapsPopup .mapboxgl-popup-content .ant-card-body .requestaway {
+  font-size: 13px;
+}
+.requestsMapsPopup .mapboxgl-popup-content .ant-card-body small {
+  font-size: 13px;
+}
+@media (max-width: 575px) {
+  .requestsMapsPopup .mapboxgl-popup-content .ant-card-body small.expiryDateTime {
+    max-width: 195px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+}
+.requestsMapsPopup .mapboxgl-popup-content .ant-card-body .action-btn {
+  padding-right: 22px;
+  margin-right: -23px;
+  border-radius: 32px 0 0 32px;
+}
+.requestsMapsPopup .mapboxgl-popup-content .ant-card-body .userInCard .uicTop {
+  max-width: 95px;
+}
+.mapview_blk.mapboxgl-map {
+  box-shadow: 0px 3px 10px #00000017;
+  border: 10px solid #ffffff;
+  border-radius: 10px;
+}

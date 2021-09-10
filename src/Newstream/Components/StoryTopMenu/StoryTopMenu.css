@@ -1,0 +1,50 @@
+.filterbySelect.ant-select-single:not(.ant-select-customize-input) .ant-select-selector {
+  height: 32px;
+}
+.filterbySelect.ant-select-single .ant-select-selector .ant-select-selection-placeholder,
+.filterbySelect.ant-select-single .ant-select-selector .ant-select-selection-item {
+  line-height: 2.2;
+}
+@media (max-width: 565px) {
+  .filterbySelect {
+    min-width: 150px;
+  }
+}
+@media (max-width: 480px) {
+  .filterbySelect {
+    min-width: 125px;
+  }
+}
+.viewSwitchround {
+  background: #fff;
+  border-radius: 25px;
+  border: 1px solid #454545;
+  margin-right: 20px;
+}
+@media (max-width: 480px) {
+  .viewSwitchround {
+    margin-right: 0px;
+  }
+}
+.viewSwitchround .ant-radio-button-wrapper {
+  border-radius: 30px;
+  border: 0 !important;
+  color: #454545;
+  line-height: 2;
+  height: 30px;
+}
+@media (max-width: 480px) {
+  .viewSwitchround .ant-radio-button-wrapper {
+    height: 27px;
+    font-size: 13px;
+    padding: 0 10px;
+  }
+}
+.viewSwitchround .ant-radio-button-wrapper:not(:first-child)::before {
+  display: none;
+}
+.viewSwitchround .ant-radio-button-wrapper.ant-radio-button-wrapper-checked,
+.viewSwitchround .ant-radio-button-wrapper.ant-radio-button-wrapper-checked:not(.ant-radio-button-wrapper-disabled):active,
+.viewSwitchround .ant-radio-button-wrapper.ant-radio-button-wrapper-checked:not(.ant-radio-button-wrapper-disabled):hover {
+  background: #454545;
+}

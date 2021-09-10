@@ -1,0 +1,47 @@
+.profiletab .ant-menu-horizontal {
+  border: 0;
+}
+.profiletab .ant-menu-horizontal .ant-menu-item {
+  color: #2b2b2b66;
+  font-size: 1rem;
+  font-weight: 600;
+  text-transform: capitalize;
+  border: 0 !important;
+  padding: 0 15px;
+  margin: 0;
+  min-width: 186px;
+  text-align: center;
+}
+@media (max-width: 1200px) {
+  .profiletab .ant-menu-horizontal .ant-menu-item {
+    min-width: inherit;
+  }
+}
+.profiletab .ant-menu-horizontal .ant-menu-item.ant-menu-item-selected {
+  color: #2b2b2b;
+  box-shadow: 0px -2px 6px -1px #2b2b2b26;
+  z-index: 1;
+  background: #fff;
+  border-radius: 10px 10px 0px 0px;
+}
+.profiletab .ant-menu-horizontal .ant-menu-item.ant-menu-item-active {
+  color: #2b2b2b;
+}
+.myTerms_blk {
+  border: 1px solid #2b2b2b1a;
+  border-radius: 10px;
+  padding: 30px;
+}
+@media (max-width: 1200px) {
+  .myTerms_blk {
+    padding: 1.33rem;
+  }
+}
+.myTerms_blk p {
+  font-size: 1rem;
+  color: #2b2b2b99;
+}
+.myTerms_blk .profileScroll {
+  max-height: 64vh;
+  overflow-y: auto;
+}

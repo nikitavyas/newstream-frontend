@@ -1,0 +1,31 @@
+.ant-tag.liveTag {
+	margin-right: 0 !important;
+	padding: 4px 10px 4px 7px;
+	border-radius: 13px;
+	border-color: #ffb0b0;
+	background: #ffe5e5;
+	height: 22px;
+	line-height: 1;
+	span {
+		font-size: 12px;
+		margin: 0;
+		&.status {
+			width: 10px;
+			height: 10px;
+			background: #ffe5e5;
+			border-radius: 50%;
+			&.scheduled {
+				background-color: #a69f9f;
+			}
+			&.live {
+				background: #ff0000;
+			}
+		}
+		&.scheduledTxt {
+			color: #454545;
+		}
+		&.liveTxt {
+			color: #ff0000;
+		}
+	}
+}

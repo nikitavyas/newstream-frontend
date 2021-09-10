@@ -1,0 +1,15 @@
+.home {
+  background-color: #eeeeee;
+}
+.action-btns img {
+  margin: 0 8px;
+}
+.inviteRep-Btn {
+  position: absolute;
+  top: 0px;
+  right: 1rem;
+  z-index: 1;
+}
+.ant-layout-content .container {
+  position: relative;
+}

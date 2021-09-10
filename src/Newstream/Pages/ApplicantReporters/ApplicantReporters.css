@@ -1,0 +1,27 @@
+.applicantList .reportactive,
+.applicantList .reportblock {
+  background-color: #f0fdf4;
+  border-radius: 16px;
+  padding: 8px 14px 8px;
+  color: #16a34a;
+  font-size: 0.92rem;
+  font-weight: 500;
+  position: relative;
+}
+.applicantList .reportactive .custIcon svg,
+.applicantList .reportblock .custIcon svg {
+  margin-top: -2px;
+}
+.applicantList .reportactive:before,
+.applicantList .reportblock:before {
+  display: none;
+}
+.applicantList .reportactive.reportblock,
+.applicantList .reportblock.reportblock {
+  background-color: #fef2f2;
+  color: #dc2626;
+}
+.applicantList .reportactive.reportblock:before,
+.applicantList .reportblock.reportblock:before {
+  background: #dc2626;
+}

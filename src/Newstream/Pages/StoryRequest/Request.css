@@ -1,0 +1,279 @@
+.filterSection_blk .sortby_btn {
+  color: #333333;
+  border-color: #333333;
+}
+.viewSwitchround {
+  background: #fff;
+  border-radius: 25px;
+  border: 1px solid #454545;
+}
+.viewSwitchround .ant-radio-button-wrapper {
+  border-radius: 30px;
+  border: 0 !important;
+  color: #454545;
+  line-height: 2;
+  height: 30px;
+}
+.viewSwitchround .ant-radio-button-wrapper:not(:first-child)::before {
+  display: none;
+}
+.viewSwitchround .ant-radio-button-wrapper.ant-radio-button-wrapper-checked,
+.viewSwitchround .ant-radio-button-wrapper.ant-radio-button-wrapper-checked:not(.ant-radio-button-wrapper-disabled):active,
+.viewSwitchround .ant-radio-button-wrapper.ant-radio-button-wrapper-checked:not(.ant-radio-button-wrapper-disabled):hover {
+  background: #454545;
+}
+.user_details {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+.price_details,
+.reqTypeDetails,
+.expiryDate_blk {
+  margin-bottom: 20px;
+}
+.price_details .price {
+  font-size: 16px;
+}
+.story-icon-label .ant-tag {
+  padding: 5px 20px;
+  margin-bottom: 10px;
+}
+.story-icon-label .ant-tag img {
+  margin-right: 5px;
+}
+.story-icon-label .audio {
+  background-color: #fff3b5;
+  color: #bea35c;
+}
+.story-icon-label .video {
+  background-color: #fed6d6;
+  color: #cb4e4e;
+}
+.story-icon-label .image {
+  background-color: #d3f5ef;
+  color: #69c7b7;
+}
+.lbl {
+  padding: 2px 10px;
+  border-radius: 20px;
+  font-size: 13px;
+  text-transform: capitalize;
+  height: auto;
+  display: flex;
+  align-items: center;
+}
+.lbl .custIcon {
+  margin-right: 5px;
+}
+.lbl.lbl-breaking-btn {
+  border: 1px solid #ffddb5;
+  color: #ef8000;
+  background: #fff6eb;
+}
+.lbl.lbl-assigned-btn {
+  border: 1px solid #dcc4f6;
+  color: #7721d1;
+  background: #f4e9ff;
+}
+.lbl.lbl-open-btn {
+  border: 1px solid #dcc4f6;
+  color: #7721d1;
+  background: #f4e9ff;
+}
+.lbl.lbl-breaking {
+  border: 1px solid #ffddb5;
+  color: #ef8000;
+  background: #fff6eb;
+}
+.lbl.lbl-assigned {
+  border: 1px solid #dcc4f6;
+  color: #7721d1;
+  background: #f4e9ff;
+}
+.lbl.lbl-category {
+  border: 1px solid #dcc4f6;
+  color: #7721d1;
+  background: #f4e9ff;
+}
+.lbl.lbl-open {
+  border: 1px solid #dcc4f6;
+  color: #7721d1;
+  background: #f4e9ff;
+}
+.lbl.lbl-purchased {
+  border: 1px solid #97dbba;
+  color: #038e4b;
+  background: #ddfbec;
+}
+.lbl.lbl-accepted {
+  border: 1px solid #abd0be;
+  color: #227d51;
+  background: #dcfbec;
+}
+.lbl img {
+  margin-right: 5px;
+  height: 15px;
+}
+.ant-tabs-top-bar {
+  margin-bottom: 0;
+}
+.allCardBox_blk {
+  box-shadow: 0px 3px 10px #0000000f;
+  border-radius: 10px;
+  overflow: hidden;
+}
+@media (max-width: 767px) {
+  .allCardBox_blk {
+    margin-bottom: 10px;
+  }
+}
+.allCardBox_blk .ant-card-body {
+  padding: 15px 20px;
+}
+.allCardBox_blk .rbTitle h3 {
+  font-size: 16px;
+  letter-spacing: 0.4px;
+  color: #000000;
+  font-weight: 500;
+  word-break: break-all;
+}
+.allCardBox_blk .acb_Top .requestCounter .custIcon {
+  color: #7721d1;
+  font-size: 21px;
+}
+.allCardBox_blk .acb_Bottom .acb_Bottom_center .acbB_top .expiryDateTime {
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0px;
+  color: #666666;
+  opacity: 1;
+}
+.allCardBox_blk .acb_Bottom .acb_Bottom_right .action-btn {
+  color: #fff;
+  border-radius: 32px 0 0 32px;
+  margin-right: -21px;
+  font-size: 16px;
+  line-height: 19px;
+  height: 34px;
+  padding: 5px 26px;
+}
+@media (max-width: 767px) {
+  .allCardBox_blk .acb_Bottom .acb_Bottom_right .action-btn {
+    padding: 5px 15px;
+  }
+}
+.allCardBox_blk .acb_Bottom .acb_Bottom_right .requestaway {
+  font-size: 14px;
+  line-height: 18px;
+  font-weight: 400;
+  letter-spacing: 0px;
+  color: #666666;
+}
+@media (max-width: 767px) {
+  .allCardBox_blk .acb_Bottom .acb_Bottom_right .requestaway {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: block;
+    max-width: 124px;
+  }
+}
+.alltabUI .ant-tabs-nav .ant-tabs-tab {
+  padding-top: 0;
+  color: #000;
+  font-size: 15px;
+  font-weight: 500;
+}
+.alltabUI .ant-tabs-nav .ant-tabs-tab.ant-tabs-tab-active {
+  color: #7721d1;
+}
+.alltabUI .ant-tabs-extra-content {
+  margin-bottom: 5px;
+}
+@media (max-width: 992px) {
+  .alltabUI .ant-tabs-extra-content {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  .alltabUI .ant-tabs-extra-content .sort-container {
+    width: 100%;
+  }
+  .alltabUI .ant-tabs-extra-content .sort-container .viewSwitchround {
+    display: flex;
+    margin-right: auto;
+  }
+}
+@media (max-width: 575px) {
+  .alltabUI .ant-tabs-extra-content .sort-container .viewSwitchround {
+    margin-left: auto;
+  }
+}
+@media (max-width: 992px) {
+  .alltabUI .ant-tabs-nav-container {
+    width: 100%;
+  }
+}
+.ant-upload.ant-upload-select-picture-card {
+  width: 100%;
+}
+.newstoryForm .ant-picker {
+  width: 100%;
+  border-color: #e2e2e2;
+}
+.newstoryForm .form-control {
+  -webkit-box-shadow: 0px 0px 3px #2b2b2b33;
+  box-shadow: 0px 0px 3px #2b2b2b33;
+  border-radius: 4px;
+  height: 40px;
+  border: 0;
+}
+.newstoryForm .ant-input {
+  border-color: #e2e2e2;
+}
+.newstoryForm .ant-input[disabled] {
+  background: #f5f5f5;
+}
+.newstoryForm .locationSearch {
+  margin-bottom: 0;
+}
+.newstoryForm .ant-input-number {
+  border-color: #e2e2e2;
+}
+.newstoryForm .ant-input-group-addon {
+  border-color: #e2e2e2;
+  background: #f5f5f5;
+}
+.newstoryForm .ant-input-group .ant-input {
+  border-left: 0;
+  padding-left: 0;
+}
+.newstoryForm .react-mapbox-ac-input {
+  margin-bottom: 0;
+}
+.newstoryForm .upload_blk {
+  margin-top: 10px;
+}
+.newstoryForm .upLoadSection .custIcon-upload {
+  font-size: 40px;
+  line-height: 1;
+  display: flex !important;
+  align-items: center;
+  justify-content: center;
+}
+.newstoryForm .upLoadSection .ant-upload-text {
+  font-size: 10px;
+  color: #888888;
+}
+.sortby_blk,
+.filterMenu_blk {
+  background: #fff;
+  padding: 10px 15px;
+  box-shadow: 0px 3px 10px #0000000f;
+  border-radius: 10px;
+  margin-top: 6px;
+}
+.location-card .googleMapReact canvas.mapboxgl-canvas {
+  width: 100% !important;
+  height: 400px !important;
+}

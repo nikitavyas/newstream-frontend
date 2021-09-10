@@ -1,0 +1,28 @@
+@import url('../../Assets/Less/Variable.less');
+.applicantList {
+	.reportactive,
+	.reportblock {
+		background-color: #f0fdf4;
+		border-radius: 16px;
+		padding: 8px 14px 8px;
+		color: #16a34a;
+		font-size: 0.92rem;
+		font-weight: 500;
+		position: relative;
+		.custIcon {
+			svg {
+				margin-top: -2px;
+			}
+		}
+		&:before {
+			display: none;
+		}
+		&.reportblock {
+			background-color: #fef2f2;
+			color: #dc2626;
+			&:before {
+				background: #dc2626;
+			}
+		}
+	}
+}

@@ -1,0 +1,16 @@
+.slackIcon,
+.whatsappIcon {
+  display: flex;
+  align-items: center;
+}
+@media (max-width: 1199px) {
+  .slackIcon,
+  .whatsappIcon {
+    padding: 6px 12px;
+    font-size: 13px;
+  }
+}
+.slackIcon img,
+.whatsappIcon img {
+  height: 15px;
+}

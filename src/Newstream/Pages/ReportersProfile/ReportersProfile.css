@@ -1,0 +1,111 @@
+.rp_storiesSummary .ant-card-body {
+  padding: 20px;
+  width: 100%;
+}
+.rp_storiesSummary .ant-card-body h3 {
+  font-weight: 700;
+  color: #7721d1 !important;
+  margin-bottom: 10px;
+  font-size: 24px;
+}
+@media (max-width: 1366px) {
+  .rp_storiesSummary .ant-card-body h3 {
+    max-width: 100%;
+  }
+}
+.rp_storiesSummary .ant-card-body small {
+  color: #7721d1;
+}
+.rp_storiesSummary .requestStatusTxt {
+  text-align: center;
+}
+.rp_ReporterContractList .rp_ReporterInvoice {
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+.rp_ReporterContractList .rp_ReporterInvoice:not(:last-child) {
+  border-bottom: 1px solid #f1f1f1;
+}
+.rp_ReporterContractList .rp_ReporterInvoice:first-child {
+  padding-top: 0;
+}
+.rp_ReporterContractList .rp_ReporterInvoice:last-child {
+  padding-bottom: 0;
+}
+.rp_ReporterContractList .rp_ReporterContract {
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+.rp_ReporterContractList .rp_ReporterContract:not(:last-child) {
+  border-bottom: 1px solid #f1f1f1;
+}
+.rp_ReporterContractList .rp_ReporterContract:first-child {
+  padding-top: 0;
+}
+.rp_ReporterContractList .rp_ReporterContract:last-child {
+  padding-bottom: 0;
+}
+.rp_ReporterContractList .commontable .ant-table-container {
+  box-shadow: none;
+  border: 1px solid rgba(43, 43, 43, 0.10196078);
+  overflow: hidden;
+}
+.rp_ReporterContractList .commontable .ant-table-container td {
+  height: 58px;
+}
+@media (max-width: 991px) {
+  .rp_ReporterInvoiceList .ant-card-body {
+    padding: 15px 10px;
+  }
+}
+.rp_ReporterInvoiceList .rp_ReporterInvoice {
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+.rp_ReporterInvoiceList .rp_ReporterInvoice:not(:last-child) {
+  border-bottom: 1px solid #f1f1f1;
+}
+.rp_ReporterInvoiceList .rp_ReporterInvoice:first-child {
+  padding-top: 0;
+}
+.rp_ReporterInvoiceList .rp_ReporterInvoice:last-child {
+  padding-bottom: 0;
+}
+.pr_profile .profile_img_intial {
+  height: 78px;
+  width: 78px;
+  font-size: 35px;
+  text-transform: uppercase;
+}
+@media (max-width: 768px) {
+  .pr_profile {
+    margin-bottom: 20px;
+  }
+}
+.ant-table table thead > tr > th {
+  white-space: nowrap;
+}
+.acceptBtn {
+  background-color: #f1fbf6;
+  border-color: #227d51;
+  color: #227d51;
+}
+.acceptBtn:hover,
+.acceptBtn:focus,
+.acceptBtn:active {
+  background-color: #e2f7ec !important;
+  border-color: #227d51;
+  color: #227d51;
+}
+.rejectBtn {
+  background-color: #ffefef;
+  border-color: #f94444;
+  color: #f94444;
+}
+.rejectBtn:hover,
+.rejectBtn:focus,
+.rejectBtn:active {
+  background-color: #ffdbdb !important;
+  border-color: #f94444;
+  color: #f94444;
+}

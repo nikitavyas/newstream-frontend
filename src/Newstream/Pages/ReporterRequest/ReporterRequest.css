@@ -1,0 +1,23 @@
+.detailslider {
+  position: relative;
+}
+.detailslider .marketimgbox {
+  height: 200px;
+  overflow: hidden;
+  position: relative;
+}
+@media (max-width: 1200px) {
+  .detailslider .marketimgbox {
+    height: 170px;
+  }
+}
+@media (max-width: 575px) {
+  .detailslider .marketimgbox {
+    height: 140px;
+  }
+}
+.detailslider .marketimgbox img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}

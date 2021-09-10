@@ -1,0 +1,15 @@
+.user-story .mapboxgl-canvas {
+  position: relative;
+}
+.mapPopPin_blk .mapboxgl-popup-content {
+  padding: 10px 18px !important;
+  border-radius: 10px;
+}
+.mapPopPin_blk .mapboxgl-popup-content b {
+  word-break: break-word;
+}
+@media (max-width: 575px) {
+  .mapPopPin_blk .mapboxgl-popup-content {
+    max-width: 250px;
+  }
+}

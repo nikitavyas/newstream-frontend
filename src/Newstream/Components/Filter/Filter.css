@@ -1,0 +1,212 @@
+.filterSection {
+  padding: 0 0 0 20px;
+}
+@media (max-width: 1024px) {
+  .filterSection {
+    padding: 0 20px 20px;
+    margin-top: 5px;
+  }
+}
+.filterSection .filter-card {
+  padding-top: 15px;
+}
+@media (max-width: 1024px) {
+  .filterSection .filter-card {
+    border-top: 1px solid #2b2b2b33;
+  }
+}
+.filterSection .filter-card h6 {
+  font-weight: 700;
+  font-size: 14px;
+  text-transform: capitalize;
+  margin-bottom: 15px;
+}
+@media (max-width: 1024px) {
+  .filterSection .filter-card h6 {
+    margin-bottom: 10px;
+  }
+}
+.clear-button {
+  color: #2b2b2b;
+  font-size: 12px;
+  cursor: pointer;
+}
+.clear-button:hover {
+  color: #7721d1;
+}
+.selectedFilter .ant-tag {
+  background: #f4f4f5;
+  border: 0;
+  font-size: 0.71rem;
+  padding: 5px 10px;
+  color: #a1a1aa;
+  border-radius: 13px;
+  display: inline-flex;
+  align-items: center;
+  line-height: 12px;
+  margin-bottom: 10px;
+  max-width: 100%;
+}
+@media (max-width: 1024px) {
+  .selectedFilter .ant-tag {
+    margin-bottom: 5px;
+  }
+}
+.selectedFilter .ant-tag .anticon {
+  margin-right: 0;
+  font-size: 0.6rem;
+  min-width: 10px;
+}
+.selectedFilter .ant-tag span {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+.selectedFilter.showMoreTag .selectedFiltertags {
+  overflow: hidden;
+  max-height: 65px;
+}
+.selectedFilter .showmore {
+  color: #6bb9ee;
+  text-decoration: underline;
+  display: flex;
+  width: 100%;
+}
+.topSearch {
+  margin-bottom: 15px;
+}
+@media (max-width: 1024px) {
+  .topSearch {
+    margin-bottom: 10px;
+  }
+}
+.topSearch .ant-input-affix-wrapper {
+  height: 35px;
+  background: #ffffff;
+  box-shadow: none;
+  border: 0;
+  border-radius: 0;
+  border-bottom: 1px solid #2b2b2b;
+  padding-left: 25px;
+}
+.topSearch .ant-input-affix-wrapper .ant-input {
+  line-height: 18px;
+}
+.topSearch .ant-input-affix-wrapper.ant-input-affix-wrapper-focused {
+  box-shadow: none !important;
+}
+.topSearch .ant-input-group-addon {
+  position: absolute;
+  left: 0;
+  top: -4px;
+}
+.topSearch .ant-input-group-addon .ant-btn {
+  padding: 2px 0;
+  height: 35px;
+  border-radius: 0 !important;
+  background-color: #fff;
+  border-color: #fff;
+  color: #2b2b2b;
+  font-size: 1rem;
+  box-shadow: none;
+}
+.filterByCatagory .filterbox {
+  padding-top: 15px;
+  border-top: 1px solid #2b2b2b33;
+}
+@media (max-width: 1024px) {
+  .filterByCatagory .filterbox {
+    padding-top: 12px;
+  }
+  .filterByCatagory .filterbox:first-child {
+    padding-top: 5px;
+  }
+}
+.filterByCatagory .filterbox .ant-rate {
+  font-size: 1rem;
+  margin-top: -1px;
+  margin-right: 5px;
+}
+.filterByCatagory .filterbox .ant-radio-wrapper {
+  width: 100%;
+  margin-bottom: 15px;
+  display: flex;
+  color: #2b2b2b;
+  align-items: start;
+  line-height: 100%;
+}
+.filterByCatagory .filterbox .ant-radio-wrapper .ant-radio .ant-radio-input:focus + .ant-radio-inner {
+  border-color: #7721D1 !important;
+}
+.filterByCatagory .filterbox .ant-radio-wrapper .ant-radio .ant-radio-inner {
+  border-color: #e4e4e7;
+  width: 14px;
+  height: 14px;
+}
+.filterByCatagory .filterbox .ant-radio-wrapper .ant-radio .ant-radio-inner:after {
+  top: 2px;
+  left: 2px;
+  background: #7721D1;
+  border-color: #7721D1;
+}
+.filterByCatagory .filterbox .ant-radio-wrapper .ant-radio.ant-radio-checked .ant-radio-inner {
+  border-color: #7721D1;
+}
+.filterByCatagory .categories_list .ant-checkbox-wrapper {
+  width: 100%;
+  margin-bottom: 15px;
+  display: flex;
+  color: #2b2b2b;
+  align-items: start;
+  line-height: 1.14rem;
+}
+@media (min-width: 1200px) {
+  .filterByCatagory .categories_list .ant-checkbox-wrapper .ant-checkbox {
+    top: -1px;
+  }
+}
+.filterByCatagory .categories_list .ant-checkbox-wrapper .ant-checkbox .ant-checkbox-input:focus + .ant-checkbox-inner {
+  border-color: #7721D1 !important;
+}
+.filterByCatagory .categories_list .ant-checkbox-wrapper .ant-checkbox .ant-checkbox-inner {
+  border-radius: 2px;
+  border-color: #e4e4e7;
+  width: 14px;
+  height: 14px;
+}
+.filterByCatagory .categories_list .ant-checkbox-wrapper .ant-checkbox .ant-checkbox-inner:after {
+  width: 5px;
+  height: 8px;
+}
+.filterByCatagory .categories_list .ant-checkbox-wrapper .ant-checkbox.ant-checkbox-checked .ant-checkbox-inner {
+  border-color: #7721D1;
+}
+.filterByCatagory .categories_list .ant-checkbox-wrapper .custIcon-staricon {
+  font-size: 1rem;
+  top: -4px;
+  position: relative;
+}
+.filterByCatagory .categories_list .ant-checkbox-wrapper + .ant-checkbox-wrapper {
+  margin-left: 0;
+}
+.ant-rate-star-second {
+  color: #fff;
+}
+.filterCol {
+  width: 315px;
+  padding-right: 15px;
+}
+@media (max-width: 1199px) {
+  .filterCol {
+    width: 100%;
+    padding-right: 0;
+  }
+}
+.ant-input-affix-wrapper-focused {
+  box-shadow: none !important;
+}
+@media (max-width: 1199px) {
+  .allListing {
+    width: 100%;
+  }
+}

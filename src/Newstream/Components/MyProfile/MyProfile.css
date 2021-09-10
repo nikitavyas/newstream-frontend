@@ -1,0 +1,164 @@
+.myProfile_blk .myProfileDet {
+  margin-bottom: 10px;
+}
+.myProfile_blk .myProfileDet h4 {
+  font-weight: 900;
+  font-size: 1.7rem;
+  text-transform: capitalize;
+  margin-bottom: 10px;
+}
+.myProfile_blk .myProfileDet .profileLocation {
+  color: #2b2b2b99;
+  font-weight: 600;
+  font-size: 1.14rem;
+  text-transform: capitalize;
+}
+.myProfile_blk .myProfileDet .profileLocation svg {
+  margin-top: -3px;
+}
+.myProfile_blk .requestStatus .requestStatus_blk {
+  padding: 20px;
+  box-shadow: 0px 0px 10px #7721d126;
+  border-radius: 10px;
+  margin-right: 35px;
+  margin-bottom: 10px;
+  text-align: center;
+  width: 250px;
+}
+.myProfile_blk .requestStatus .requestStatus_blk:last-child {
+  margin-right: 0;
+}
+@media (max-width: 1024px) {
+  .myProfile_blk .requestStatus .requestStatus_blk {
+    margin-right: 12px;
+    width: auto;
+    padding: 12px;
+  }
+}
+.myProfile_blk .requestStatus .requestStatus_blk h1 {
+  margin-bottom: 0;
+  font-weight: 900;
+  font-size: 3.42rem;
+  line-height: 100%;
+}
+@media (max-width: 767px) {
+  .myProfile_blk .requestStatus .requestStatus_blk h1 {
+    font-size: 3rem;
+  }
+}
+.myProfile_blk .requestStatus .requestStatus_blk span {
+  font-size: 1.28rem;
+  font-weight: 700;
+  padding-top: 5px;
+  display: block;
+}
+@media (max-width: 767px) {
+  .myProfile_blk .requestStatus .requestStatus_blk span {
+    font-size: 1rem;
+  }
+}
+.myProfile_blk .requestStatus .requestStatus_blk.completed {
+  box-shadow: 0px 0px 10px #22c55e66;
+}
+.myProfile_blk .requestStatus .requestStatus_blk.completed h1 {
+  color: #22c55e !important;
+}
+.myProfile_blk .requestStatus .requestStatus_blk.ongoing {
+  box-shadow: 0px 0px 10px #ef444466;
+}
+.myProfile_blk .requestStatus .requestStatus_blk.ongoing h1 {
+  color: #ef4444 !important;
+}
+.myProfile_blk .myProfileDetails {
+  position: relative;
+}
+.myProfile_blk .myProfileDetails .profileTitle {
+  background-color: #7721d1;
+  color: #fff;
+  font-weight: 600;
+  border-radius: 0px 0px 10px 10px;
+  font-size: 0.92rem;
+  display: inline-block;
+  position: relative;
+  top: -17px;
+  padding: 7px 20px;
+  min-width: 9.42rem;
+  text-align: center;
+}
+.myProfile_blk .myProfileDetails .profilelabel {
+  color: #2b2b2b;
+  opacity: 0.4;
+  margin-bottom: 4px;
+  font-size: 1rem;
+}
+.myProfile_blk .myProfileDetails .profiletxt {
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+.myProfile_blk .myProfileDetails .commontable .ant-table-container {
+  box-shadow: none;
+  border: 1px solid #2b2b2b1a;
+  overflow: hidden;
+}
+.myProfile_blk .profilePic {
+  width: 70px;
+  height: 70px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  background-color: #ddd;
+  border: 1px solid #ddd;
+}
+.myProfile_blk .profilePic img {
+  height: 100%;
+  width: auto !important;
+  max-width: none;
+}
+.myProfile_blk .onFinishmyProfileDetails .ant-upload-picture-card-wrapper {
+  max-width: 105px;
+  position: relative;
+}
+.myProfile_blk .avatar-uploader .ant-upload-select {
+  border-radius: 50%;
+  box-shadow: 0px 0px 10px #7721d133;
+  -webkit-box-shadow: 0px 0px 10px #7721d133;
+  border: 0;
+  overflow: hidden;
+  height: 100px;
+  width: 100px;
+  margin-right: 0;
+}
+.myProfile_blk .avatar-uploader .ant-upload-select img {
+  height: 100%;
+  object-fit: cover;
+}
+.myProfile_blk .avatar-uploader .ant-upload-select .profileCamera {
+  border: 2px solid #7721d1;
+  width: 1.42rem;
+  height: 1.42rem;
+  border-radius: 50%;
+  position: absolute;
+  right: 7px;
+  font-size: 0.7rem;
+  bottom: 10px;
+  background: #fff;
+}
+.downloadbtn {
+  border-radius: 50%;
+  width: 41px !important;
+  height: 41px;
+  background: #f4f4f5;
+  border: 0;
+  padding: 4px;
+  color: #a1a1aa;
+  display: inline-block;
+  text-align: center;
+  line-height: 30px;
+}
+.downloadbtn:hover {
+  background: #7721d1;
+  color: #ffff;
+}

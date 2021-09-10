@@ -1,0 +1,355 @@
+@import url('../../Assets/Less/Variable.less');
+
+.loginPage {
+	min-height: 100vh;
+	background: url(../../Assets/images/Background.png) no-repeat top center;
+	background-size: cover;
+	position: relative;
+
+	@media (max-width: 1280px) {
+		background-position: 53% 50%;
+	}
+
+	@media (max-width: 767px) {
+		background: url(../../Assets/images/ipad-login-bg.png) no-repeat;
+		background-position: 50% 66%;
+	}
+
+	@media (max-width: 575px) {
+		background: url(../../Assets/images/mobile-login-bg.png) no-repeat;
+		background-position: 50% 32%;
+		background-size: cover;
+	}
+
+	@media (max-device-width: 767px) and (orientation: landscape) {
+		background: url(../../Assets/images/Background.png) no-repeat top center;
+		background-size: cover;
+
+		.ant-col-xs-24 {
+			flex: 0 0 50%;
+			max-width: 50%;
+		}
+	}
+
+	.loginCard {
+		background: transparent;
+		border: 0;
+		height: 100vh;
+		max-width: calc(100% - 200px);
+		width: 100%;
+		padding: 0 15px;
+
+		@media (max-width: 1280px) {
+			max-width: calc(100% - 50px);
+			padding: 0;
+		}
+
+		@media (max-width: 991px) {
+			max-width: calc(100% - 60px);
+			padding: 0;
+		}
+		@media (max-device-width: 767px) and (orientation: landscape) {
+			height: 100%;max-width: calc(100% - 30px);
+		}
+		// @media (max-width: 575px) {
+		// 	max-width: calc(100% - 60px);
+		// 	padding: 0;
+		// }
+		.ant-card-body {
+			padding: 0;
+			height: 100%;
+
+			.loginFormLeft {
+				padding-left: 5vw;
+				height: 100%;
+				@media (max-width: 991px) {
+					padding-left: 8.2vw;
+				}
+				@media (max-width: 767px) {
+					padding-left: 0;
+				}
+				@media (max-device-width: 767px) and (orientation: landscape) {
+					padding-left: 8vw;
+				}
+				.loginwelTitle {
+					font-size: 1.42rem;
+					font-weight: bold;
+					margin-bottom: 2.14rem;
+
+					@media (max-width: 991px) {
+						margin-bottom: 1.5rem;
+						font-size: 1.38rem;
+					}
+
+					@media (max-width: 575px) {
+						font-size: 1.07rem;
+					}
+
+					span {
+						display: block;
+						color: #7721d1;
+						font-weight: 900;
+						font-size: 2.14rem;
+
+						@media (max-width: 991px) {
+							font-size: 2rem;
+							line-height: 100%;
+						}
+
+						@media (max-width: 575px) {
+							font-size: 1.61rem;
+						}
+					}
+				}
+
+				.loginForm_blk {
+					padding-top: 80px;
+					width: 100%;
+					max-width: 400px;
+
+					@media (max-width: 1280px) {
+						padding-top: 2rem;
+					}
+
+					@media (max-width: 767px) {
+						padding-top: 0;
+						max-width: 100%;
+					}
+				}
+
+				@media (max-width: 575px) {
+					padding:60px 0 15px;
+				}
+
+				.ant-input-affix-wrapper {
+					padding: 8px 18px;
+					box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1) !important;
+					border: none;
+
+					@media (max-width: 991px) {
+						padding: 5px 15px;
+					}
+
+					.ant-input-prefix {
+						color: #7721d1;
+						margin-right: 0;
+						padding-right: 18px;
+						border-right: 1px solid #2b2b2b1a;
+						font-size: 1rem;
+
+						@media (max-width: 991px) {
+							padding-right: 15px;
+							font-size: 1.38rem;
+						}
+					}
+				}
+
+				.ant-form-item {
+					.ant-input {
+						height: 40px;
+						padding-left: 20px;
+						font-size: 15px;
+						box-shadow: none;
+						outline: 0;
+
+						@media (max-width: 991px) {
+							height: 38px;
+							padding-left: 12px;
+						}
+
+						@media (max-width: 575px) {
+							height: 34px;
+						}
+					}
+
+					.ant-btn {
+						padding: 8px 45px;
+						height: auto;
+						margin-top: 10px;
+						font-size: 1.28rem;
+						width: 100%;
+						text-shadow: 2px 2px 1px #0000004d;
+						font-weight: 900;
+
+						@media (max-width: 991px) {
+							margin-top: 2.2rem;
+						}
+
+						@media (max-width: 575px) {
+							margin-top: 2rem;
+						}
+					}
+				}
+
+				a {
+					color: #000;
+				}
+
+				.loginLogo {
+					position: absolute;
+					top: 5.71rem;
+					right: 0;
+
+					@media (max-width: 991px) {
+						top: 5rem;
+					}
+
+					@media (max-width: 767px) {
+						position: relative;
+						top: auto;
+						right: auto;
+						text-align: right;
+						margin-bottom: 1rem;
+					}
+
+					img {
+						max-width: 100%;
+						height: 32px;
+					}
+				}
+
+				.forgotPassword_blk {
+					.forgotSpace {
+						margin-top: 7.14rem;
+
+						@media (max-width: 991px) {
+							margin-top: 1.5rem;
+						}
+					}
+				}
+
+				.ant-checkbox-wrapper {
+					@media (max-width: 991px) {
+						font-size: 1.07rem;
+					}
+
+					@media (max-width: 575px) {
+						font-size: 0.92rem;
+					}
+				}
+
+				.forgotPasswordTxt {
+					cursor: pointer;
+
+					@media (max-width: 991px) {
+						font-size: 1.07rem;
+					}
+
+					@media (max-width: 575px) {
+						font-size: 0.92rem;
+					}
+				}
+			}
+
+			.loginFormRight {
+				height: 100%;
+				padding: 5.71rem 0;
+				justify-content: space-between;
+
+				@media (max-width: 991px) {
+					padding: 4rem 0;
+				}
+
+				@media (max-width: 767px) {
+					height: 36vh;
+					padding: 3rem 0;
+				}
+
+				@media (max-width: 575px) {
+					padding: 2.3rem 0;
+				}
+
+				@media (max-device-width: 767px) and (orientation: landscape) {
+
+					height: 100%;
+				}
+
+				.subtagLine {
+					color: #fff;
+					font-size: 2.57rem;
+					font-weight: 700;
+					text-shadow: 3px 3px 0 #00000029;
+					letter-spacing: 0.064rem;
+					line-height: 1.2;
+
+					@media (max-width: 991px) {
+						font-size: 2.3rem;
+						letter-spacing: normal;
+					}
+					@media (max-device-width: 767px) and (orientation: landscape) {
+						font-size: 1.7rem;
+					}
+					@media (max-width: 575px) {
+						font-size: 1.38rem;
+					}
+
+					span {
+						font-size: 2.85rem;
+						font-weight: 900;
+						letter-spacing: 0.07rem;
+
+						@media (max-width: 991px) {
+							font-size: 2.76rem;
+						}
+						@media (max-device-width: 767px) and (orientation: landscape) {
+							font-size:2rem;
+						}
+						@media (max-width: 575px) {
+							font-size: 1.61rem;
+						}
+					}
+
+					span:nth-child(2) {
+						font-size: 2.14rem;
+						letter-spacing: 0.053rem;
+
+						@media (max-width: 991px) {
+							font-size: 1.84rem;
+						}
+
+						@media (max-width: 575px) {
+							font-size: 1.23rem;
+						}
+					}
+				}
+
+				.tagLine {
+					color: #fff;
+					font-size: 2.57rem;
+					font-weight: 700;
+					text-shadow: 3px 3px 0 #00000029;
+					letter-spacing: 0.064rem;
+					line-height: 1.2;
+
+					@media (max-width: 991px) {
+						font-size: 2.3rem;
+						letter-spacing: normal;
+					}
+					@media (max-device-width: 767px) and (orientation: landscape) {
+						font-size: 1.7rem;
+					}
+					@media (max-width: 575px) {
+						font-size: 1.23rem;
+					}
+
+					span {
+						font-size: 3.42rem;
+						font-weight: 900;
+						letter-spacing: 0.085rem;
+						display: block;
+
+						@media (max-width: 991px) {
+							font-size: 3.07rem;
+						}
+						@media (max-device-width: 767px) and (orientation: landscape) {
+							font-size: 2rem;
+						}
+						@media (max-width: 575px) {
+							font-size: 1.84rem;
+						}
+					}
+				}
+			}
+		}
+	}
+}

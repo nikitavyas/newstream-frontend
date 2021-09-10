@@ -1,0 +1,21 @@
+.companybox {
+  border: 1px solid #2B2B2B1A;
+  border-radius: 10px;
+}
+.companyurl {
+  color: #7721D1;
+  border-radius: 19px;
+  background-color: #7721D10A;
+  padding: 0.71rem 2.14rem;
+  display: inline-block;
+  font-weight: 600;
+  line-height: 1.2;
+}
+.companyimg {
+  width: 100px;
+  height: 100px;
+  border: 2px solid #7721D1;
+  border-radius: 50px;
+  margin: 60px auto 50px;
+  box-shadow: 0 0 0 20px #7721d108, 0 0 0 40px #7721d109;
+}

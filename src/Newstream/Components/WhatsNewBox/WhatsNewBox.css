@@ -1,0 +1,52 @@
+.whtsNew_list {
+  padding-left: 0px;
+  margin-bottom: 0px;
+  list-style: none;
+}
+.whtsNew_list li {
+  padding: 1px 0;
+  color: #858585;
+}
+.version_btn {
+  border-radius: 20px 0 0 20px;
+  padding-right: 20px;
+  margin-right: -20px;
+  color: #fff;
+  background-color: #7721d1;
+  border-color: #7721d1;
+  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.12);
+  -webkit-box-shadow: 0 2px 0 rgba(0, 0, 0, 0.045);
+  box-shadow: 0 2px 0 rgba(0, 0, 0, 0.045);
+  line-height: 1.5715;
+  position: relative;
+  display: inline-block;
+  font-weight: 400;
+  white-space: nowrap;
+  text-align: center;
+  background-image: none;
+  -webkit-transition: all 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
+  transition: all 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -ms-touch-action: manipulation;
+  touch-action: manipulation;
+  height: 32px;
+  font-size: 14px;
+  padding-left: 15px;
+  line-height: 2.3;
+}
+.viewmore_btn {
+  cursor: pointer;
+  color: #2b2b2b;
+}
+.wnbTitle {
+  color: #5c5c5c;
+  font-weight: 500;
+  font-size: 16px;
+}
+.whatsnewBox .rbTitle h3 {
+  font-weight: 600;
+  font-size: 18px;
+}
